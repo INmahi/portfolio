@@ -17,10 +17,11 @@ body{
 /*==== Basic setup ====*/
 a{
   text-decoration: none;
+  color: #0d9144;
 }
-a:hover{
+  a:hover{
   text-decoration: underline;
-}
+  }
 ul{
   list-style-type: none;
 }
@@ -47,6 +48,12 @@ ul{
 
 }
 /*======== popup ========*/
+/*blur effect*/
+.allwrap{
+  filter: blur(.7px);
+  -webkit-filter: blur(.7px);
+  height: 100vh;
+}
 .popup_box{
  position: fixed;
  left: 50%;
@@ -153,10 +160,13 @@ ul{
     font-size: 2.2rem;
   cursor: pointer;
 }
+#done_btn:hover{
+  background: #4668cf;
+}
 
 /*==== scrollbar ====*/
-/* ::-webkit-scrollbar {
-    width: 20px;
+::-webkit-scrollbar {
+    width: 1.3rem;
   }
 
   ::-webkit-scrollbar-track {
@@ -164,19 +174,18 @@ ul{
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #d6dee1;
-    border-radius: 20px;
-    border: 6px solid transparent;
+    background-color: #c3c7c9;
+    border-radius: 2rem;
+    border: .4rem solid transparent;
     background-clip: content-box;
-  }
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
 
   ::-webkit-scrollbar-thumb:hover {
     background-color: rgba(0, 128, 128, 0.788);
-  } */
+  }
 
-  
-
-  .allwrap{
-    filter: blur(.5px);
-    -webkit-filter: blur(.5px);
-}
+/* navigation design */

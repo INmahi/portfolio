@@ -2,9 +2,9 @@
 /*==============  NEXT  ==================*/
 
 
-
-popup js
-popup responsive
+find logo
+make header (ul)
+start home
 
 
 
@@ -65,3 +65,7 @@ ig - https://www.instagram.com/ishat_noor_mahi/
 tw - https://twitter.com/IshatMahi
 
 github - https://github.com/Mahi787
+
+
+
+

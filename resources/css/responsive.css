@@ -1,4 +1,6 @@
-@media(max-width:767px){
+  
+  /* popup */
+  @media(max-width:767px){
     .popup_content{
         flex-direction: column;
         width: 53rem;
@@ -48,8 +50,10 @@
     #done_div{
         bottom: 1%;
         left: 41%;
-        margin-bottom: 1px;
+        margin-bottom: 2px;
         margin-top: 5px;
+        display: block;
+        padding-bottom: 2px;
     }
     .popup_content ul li{
         margin-bottom: 3.5rem;
