@@ -1,6 +1,7 @@
   
   /* popup */
   @media(max-width:767px){
+    /* popup */
     .popup_content{
         flex-direction: column;
         width: 53rem;
@@ -22,6 +23,7 @@
     }
   }
   @media(max-width:600px){
+    /* popup */
     .popup_content{
         width: 43rem;
         height: 48rem;
@@ -38,6 +40,7 @@
       }
   }
   @media(max-width:464px){
+    /* popup */
     .popup_content{
         width: 30rem;
         height: auto;
@@ -60,6 +63,12 @@
     }
     .popup_content ul li:first-child{
         margin-bottom: 1rem;
+    }
+    .navbar_content_wrapper{
+      flex-direction: column;
+    }
+    .manubar ul{
+      flex-direction: column;
     }
   }
 

@@ -189,3 +189,77 @@ ul{
   }
 
 /* navigation design */
+.common_wrapper{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.navbar_content_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.manubar ul{
+  display: flex;
+}
+.logo_div{
+  padding-right: .6rem;
+}
+.logo_div h3{
+  color: #333;
+  position: relative;
+
+}
+.logo_div h3,.logo_div .highlight_color{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.9rem;
+}
+.logo_div h3>.highlight_color{
+  letter-spacing: 1px;
+}
+.bullet{
+  font-family: 'Roboto', sans-serif;
+  display: inline;
+  margin-left: 0px;
+  font-size: 4rem;
+
+}
+.make_space{
+  margin-left: .2rem;
+}
+.logo_div .highlight_color{
+  text-transform: lowercase;
+}
+.manubar ul li{
+  margin-left: 1.3rem;
+  width: 6.5rem;
+  text-align: center;
+  padding: .5rem;
+  border-radius: .3rem;
+  transition: .2s ease;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -ms-transition: .2s ease;
+  -o-transition: .2s ease;
+}
+.manubar ul li:first-child{
+  margin-left: 0;
+}
+.manubar ul li a{
+  color:#333;
+  font-size: 1.9rem;
+  font-family: 'Roboto', sans-serif;
+  transition: .2s ease;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -ms-transition: .2s ease;
+  -o-transition: .2s ease;
+}
+.manubar ul li:hover{
+  text-decoration: none;
+  background: #4668cf;
+}
+.manubar ul li:hover a{
+  color: rgb(233, 231, 231);
+  text-decoration: none;
+}
