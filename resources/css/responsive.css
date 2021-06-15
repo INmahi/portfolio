@@ -40,6 +40,9 @@
       }
   }
   @media(max-width:464px){
+    html{
+      /* font-size: 70%; */
+    }
     /* popup */
     .popup_content{
         width: 30rem;
