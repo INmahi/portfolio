@@ -70,6 +70,9 @@
     .manubar ul{
       flex-direction: column;
     }
+    .manubar ul li:first-child{
+      margin-left: 1.3rem;
+    }
   }
 
   
