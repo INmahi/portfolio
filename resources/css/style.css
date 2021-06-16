@@ -11,6 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Titillium Web', sans-serif;
     font-family: 'Dawning of a New Day', cursive; */
+    /* font-family: 'Raleway', sans-serif; */
     background: #c7c7c7bd;
     text-rendering: optimizeLegibility;
 }
@@ -50,8 +51,8 @@ ul{
 /*======== popup ========*/
 /*blur effect*/
 .allwrap{
-  filter: blur(.7px);
-  -webkit-filter: blur(.7px);
+  filter: blur(.07rem);
+  -webkit-filter: blur(.07rem);
   height: 100vh;
 }
 .popup_box{
@@ -262,4 +263,63 @@ ul{
 .manubar ul li:hover a{
   color: rgb(233, 231, 231);
   text-decoration: none;
+}
+
+/* home section*/
+.home_content{
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 150rem;
+  margin: 0 auto;
+}
+.left{
+  overflow: hidden;
+}
+.left svg{
+  filter: drop-shadow(-3px 6px 5px #b2b2b8);
+  width: 99%;
+}
+.right{
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  height: 45rem;
+  display: flex;
+  align-items: center;
+}
+.right .home_txtdiv_right{
+  margin-top: 30%;
+}
+.right .home_txtdiv_right h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 2.4rem;
+  margin-bottom: -0.7rem;
+}
+.right .home_txtdiv_right h1{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-size: 4.7rem;
+  color: rgb(43, 42, 42);
+  margin-bottom: .3rem;
+  margin-top: .1rem;
+  letter-spacing: .1rem;
+
+}
+.right .home_txtdiv_right .role{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.1rem;
+  font-weight: 500;
+  color: rgb(36, 35, 35);
+  margin-bottom: .8rem;
+}
+.right .home_txtdiv_right .home_note{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.9rem;
+  color: rgb(71, 64, 64);
+  width: 50rem;
+  letter-spacing: 0;
+  line-height: 2.6rem;
+  margin-top: .9rem;
 }

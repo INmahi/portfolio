@@ -25,6 +25,7 @@ getDoneBtn.addEventListener("click",()=>{
     getWebContent.classList.remove("allwrap")
     // getPloader.style.display="none";
 })
+//// autotype
 
 
 
