@@ -3,6 +3,7 @@
     /*home*/
     .home_content{
       justify-content: space-between;
+      flex-wrap: nowrap;
     }
     .left img{
       width: 100%;
@@ -10,6 +11,17 @@
   }
   /* popup */
   @media(max-width:767px){
+        html{
+          font-size: 56.5%;
+        }
+       /*home*/
+       .home_content{
+        
+      }
+      .left img{
+        
+      }
+    
     /* popup */
     .popup_content{
         flex-direction: column;
