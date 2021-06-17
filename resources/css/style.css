@@ -268,28 +268,29 @@ ul{
 /* home section*/
 .home_content{
   display: flex;
+  padding-top: 42px;
+  margin: 0px auto;
   align-items: center;
-  position: relative;
-  max-width: 150rem;
-  margin: 0 auto;
+  /* justify-content: center; */
+  overflow: hidden;
+  flex-wrap: wrap;
+
 }
 .left{
-  overflow: hidden;
+  width: 50%;
+  z-index: 1;
 }
-.left svg{
+.left img{
   filter: drop-shadow(-3px 6px 5px #b2b2b8);
-  width: 99%;
+  -webkit-filter: drop-shadow(-3px 6px 5px #b2b2b8);
+  width: 95%;
+  min-width: 39rem;
 }
 .right{
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-  height: 45rem;
-  display: flex;
-  align-items: center;
+  z-index: 8878;
 }
 .right .home_txtdiv_right{
-  margin-top: 30%;
+ 
 }
 .right .home_txtdiv_right h2{
   font-family: 'Raleway', sans-serif;
@@ -318,7 +319,7 @@ ul{
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.9rem;
   color: rgb(71, 64, 64);
-  width: 50rem;
+  width: 57rem;
   letter-spacing: 0;
   line-height: 2.6rem;
   margin-top: .9rem;

@@ -1,4 +1,13 @@
   
+  @media(min-width: 992px) {
+    /*home*/
+    .home_content{
+      justify-content: space-between;
+    }
+    .left img{
+      width: 100%;
+    }
+  }
   /* popup */
   @media(max-width:767px){
     /* popup */
@@ -41,7 +50,7 @@
   }
   @media(max-width:464px){
     html{
-      /* font-size: 70%; */
+      font-size: 50%;
     }
     /* popup */
     .popup_content{
