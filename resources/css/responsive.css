@@ -15,12 +15,7 @@
           font-size: 56.5%;
         }
        /*home*/
-       .home_content{
-        
-      }
-      .left img{
-        
-      }
+   
     
     /* popup */
     .popup_content{
@@ -62,8 +57,14 @@
   }
   @media(max-width:464px){
     html{
-      font-size: 50%;
+      font-size: 40%;
     }
+    /*home note*/
+    .right .home_txtdiv_right .home_note {
+      font-size: 1.8rem;
+      width: 95%;
+
+  }
     /* popup */
     .popup_content{
         width: 30rem;

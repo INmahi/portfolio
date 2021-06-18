@@ -39,6 +39,21 @@ ul{
   margin-bottom: 1rem;
   float: right;
 }
+.common_btn {
+  width: 11rem;
+  height: 4rem;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  box-shadow: 2px 5px 9px 0px grey;
+  background: #0d9144d6;
+  color: #dcdcdc;
+  font-size: 1.6rem;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 0.9rem;
+}
 /*==== preloader ====*/
 #loading{
     width: 100%;
