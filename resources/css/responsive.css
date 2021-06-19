@@ -8,6 +8,9 @@
     .left img{
       width: 100%;
     }
+    .common_btn:first-child{
+      margin-left: 0;
+    }
   }
   /* popup */
   @media(max-width:767px){
@@ -37,6 +40,10 @@
         overflow: hidden;
         font-size: 1.8rem; 
     }
+    .about_left img{
+      height: 30rem;
+    }
+   
   }
   @media(max-width:600px){
     /* popup */
@@ -54,6 +61,17 @@
         display: block;
         z-index: 3;
       }
+      .about_left img{
+        height: 28rem;
+      }
+      .about_details_p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.4rem;
+        color: #424242;
+        line-height: 2.2rem;
+        word-spacing: 4px;
+        margin-top: 1rem;
+    }
   }
   @media(max-width:464px){
     html{
@@ -98,6 +116,30 @@
     .manubar ul li:first-child{
       margin-left: 1.3rem;
     }
+    .about_details_p{
+      font-size: 1.5rem;
+  }
+  .about .about_sec_header::before {
+    content: '';
+    background: url(../img/cyan_underline.png);
+    display: inline-block;
+    height: 21px;
+    background-size: 70px 10px;
+    background-repeat: no-repeat;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    opacity: 1;
+  }
+  .about_mid{
+   display: none;
+  }
+  .about_left{
+    width: 50%;
+  }
+  .about_left img{
+    height: 30rem; 
   }
 
-  
+  }  

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahi</title>
     <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="resources/css/stopDark.css"> -->
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/grid.css">
     <link rel="stylesheet" href="resources/css/responsive.css">
@@ -56,10 +57,10 @@
                     <div class="manubar">
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="#home">Home</a>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <a href="#about">About</a>
                             </li>
                             <li>
                                 <a href="#">Services</a>
@@ -78,8 +79,7 @@
                 </div>
             </div>
         </div>
-        <section class="home">
-
+        <section class="home" id="home">
                 <div class="common_wrapper">
                     <div class="home_content">
                         <div class="left">       
@@ -95,12 +95,43 @@
                                 </p>
                             </div>
                             <div class="home_btn">
-                                <button class="common_btn">Start Tour</button>
+                                <button class="common_btn" id="start_tour"><a href="#about" style="color: #dcdcdc; text-decoration: none;">Start Tour</a></button>
+                                <button class="common_btn" id="video_tour_btn">Video Tour</button>
                             </div>
                         </div>
                     </div>
                 </div>
             
+        </section>
+        <section class="about" id="about">
+            <div class="about_sec_header">
+                <h2>About Me</h2>
+            </div>
+            <div class="common_wrapper">
+                <div class="about_content">
+                    <div class="about_left about_img_div">
+                        <img src="resources/img/DSC021,jhgfd93.png" alt="">
+                    </div>
+                    <div class="about_mid about_devider">
+                        <img src="resources/img/devider_cyan.png" alt="">
+                    </div>
+                    <div class="about_right about_img_details">
+                        <div class="details">
+                            <div class="name">
+                                <h3 class="abt_h3"><span class="highlight_color_green">Greetings</span></h3>
+                                <h2 class="abt_h2"><span class="highlight_color">K</span>now <span class="highlight_color">A</span>bout <span class="highlight_color">M</span>e</h2>
+                            </div>
+                            <p class="about_details_p">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla earum assumenda quia sint porro neque tempora perferendis possimus, voluptatibus officiis adipisci natus, enim quidem exercitationem officia nemo, ratione deserunt.
+                               a laborum eveniet tempora harum esse voluptates explicabo. Dolores quas ipsum quisquam, quasi perferendis rem veniam sint! Ullam magni quaerat vitae necessitatibus voluptatem eos nulla aperiam neque voluptas.
+                            
+                                Rem labore expedita distinctio amet beatae totam. Dignissimos laudantium soluta culpa facilis voluptates optio doloribus. Vitae officiis perferendis officia, esse animi reiciendis quisquam quasi illum molestias quis, cum voluptatibus. Dolore!
+                                Ut beatae pariatur velit modi veritatis expedita maiores similique, illo perferendis alias dolorem obcaecati debitis magnam, quos dolor facilis corporis architecto illum! Voluptatum neque molestiae quis beatae, delectus similique magni!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
     <script src="resources/js/index.js"></script>

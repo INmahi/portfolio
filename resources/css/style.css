@@ -23,12 +23,20 @@ a{
   a:hover{
   text-decoration: underline;
   }
+h1,h2,h3{
+  font-family: 'Titillium Web', sans-serif;
+  /*set default color :  can be changed*/
+  color: rgb(37, 37, 37);
+}
 ul{
   list-style-type: none;
 }
 .highlight_color{
   color: rgb(209, 29, 65);
   text-transform: capitalize;
+}
+.highlight_color_green{
+  color: #0d9144;
 }
 .signature{
   font-family: 'Dawning of a New Day', cursive;
@@ -49,10 +57,19 @@ ul{
   background: #0d9144d6;
   color: #dcdcdc;
   font-size: 1.6rem;
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Titillium Web', sans-serif;
-  margin-top: 1rem;
-  margin-bottom: 0.9rem;
+  /*font-family: 'Roboto', sans-serif;
+  */font-family: 'Titillium Web', sans-serif;
+  margin-left: 2rem;
+  margin-top: 0.8rem;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+.common_btn:hover{
+  background: #4f6dc5;
+  cursor: pointer;
 }
 /*==== preloader ====*/
 #loading{
@@ -291,29 +308,26 @@ ul{
   flex-wrap: wrap;
 
 }
-.left{
+ .home .left{
   width: 50%;
   z-index: 1;
 }
-.left img{
+.home .left img{
   filter: drop-shadow(-3px 6px 5px #b2b2b8);
   -webkit-filter: drop-shadow(-3px 6px 5px #b2b2b8);
   width: 95%;
   min-width: 39rem;
 }
-.right{
+.home .right{
   z-index: 8878;
 }
-.right .home_txtdiv_right{
- 
-}
-.right .home_txtdiv_right h2{
+.home .right .home_txtdiv_right h2{
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 2.4rem;
   margin-bottom: -0.7rem;
 }
-.right .home_txtdiv_right h1{
+.home .right .home_txtdiv_right h1{
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
   font-size: 4.7rem;
@@ -323,14 +337,14 @@ ul{
   letter-spacing: .1rem;
 
 }
-.right .home_txtdiv_right .role{
+.home .right .home_txtdiv_right .role{
   font-family: 'Roboto', sans-serif;
   font-size: 3.1rem;
   font-weight: 500;
   color: rgb(36, 35, 35);
   margin-bottom: .8rem;
 }
-.right .home_txtdiv_right .home_note{
+.home .right .home_txtdiv_right .home_note{
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.9rem;
   color: rgb(71, 64, 64);
@@ -338,4 +352,75 @@ ul{
   letter-spacing: 0;
   line-height: 2.6rem;
   margin-top: .9rem;
+}
+.home_btn{
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+/*ABout*/
+
+.about{
+  background: #bcbdbd33;
+}
+.about .about_sec_header{
+  text-align: center;
+  position: relative;
+  height: 60px;
+  padding-top: 6px;
+}
+.about .about_sec_header::before{
+  content: '';
+  background: url(../img/cyan_underline.png);
+  display: inline-block;
+  height: 21px;
+  background-size: 180px 15px;
+  background-repeat: no-repeat;
+  width: 15%;
+  position: absolute;
+  top: 60%;
+  left: 42%;
+  opacity: .9;
+
+}
+.about .about_sec_header h2{
+  font-size: 2.6rem;
+  letter-spacing: 2px;
+  color: #383737;
+}
+.about_content{
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_left{
+  width: 35%;
+}
+.about_right{
+  width: 52rem;
+}
+.about_left img{
+
+  width: 92%;
+  height: 45rem;
+  border-radius: 4px;
+  max-width: 33rem;
+  max-height: 45rem;
+
+}
+.abt_h3{
+  font-size: 2.5rem;
+}
+.abt_h2{
+  font-size: 3rem;
+}
+
+.about_details_p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: #424242;
+    line-height: 2.2rem;
+    word-spacing: 4px;
+    margin-top: 1rem;
 }
