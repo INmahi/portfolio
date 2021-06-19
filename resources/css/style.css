@@ -71,6 +71,30 @@ ul{
   background: #4f6dc5;
   cursor: pointer;
 }
+/*back to top*/
+.to-top {
+  background-color: #fff;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 82%;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s all;
+  color: #000;
+  font-size: 32px;
+  width: 41px;
+  height: 40px;
+}
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 0.8;
+  scroll-behavior: smooth;
+}
 /*==== preloader ====*/
 #loading{
     width: 100%;
