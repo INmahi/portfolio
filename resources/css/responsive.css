@@ -43,6 +43,19 @@
     .about_left img{
       height: 30rem;
     }
+    .about .about_sec_header::before {
+      content: '';
+      background: url(../img/cyan_underline.png);
+      display: inline-block;
+      height: 21px;
+      background-size: 79px 10px;
+      background-repeat: no-repeat;
+      width: 37%;
+      position: absolute;
+      top: 56%;
+      left: 45%;
+      opacity: 1;
+  }
    
   }
   @media(max-width:600px){
@@ -141,5 +154,13 @@
   .about_left img{
     height: 30rem; 
   }
+
+  /*services*/
+  .services .service_header h2::after{
+    display: none;
+  }
+  .service_btn_contain .common_btn{
+    margin-left: 0;
+  } 
 
   }  

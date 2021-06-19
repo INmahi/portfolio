@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahi</title>
     <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="resources/css/stopDark.css"> -->
+    <link rel="stylesheet" href="resources/css/stopDark.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/grid.css">
     <link rel="stylesheet" href="resources/css/responsive.css">
@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,600&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&family=Dawning+of+a+New+Day&display=swap"" rel="stylesheet">
      <!-- font awsome cdn -->
      <script src="https://kit.fontawesome.com/48257ee1fc.js" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
 <body onload="runPreloader()">
@@ -53,6 +54,9 @@
                     <div class="logo_div">
                         <h3 class="logo_txt_h3">Portfo<span class="highlight_color" id="spcecial_hglgt make_space">lio<span class="bullet">.</span>
                         </span></h3>
+                    </div>
+                    <div class="sticky_logo">
+                        <img src="resources/img/name.png" alt="">
                     </div>
                     <div class="manubar">
                         <ul>
@@ -133,9 +137,106 @@
                 </div>
             </div>
         </section>
+        <section class="services">
+            <div class="service_header">
+                <h2>My Services </h2>
+            </div>
+            <div class="common_wrapper">
+                <div class="services_content">
+                    <div class="services_filter">
+                        <button type="button" data-filter="all" title="Show all services">All</button>
+                        <button type="button" data-filter=".Web-Development" title="Show Web related services">Web Development</button>
+                        <button type="button" data-filter=".Graphics-Design" title="Show graphic design related services">Graphics Design</button>
+                        <button type="button" data-filter=".Photography"  title="Show My Photography and edit related services">Photography</button>
+                    </div>
+                    <div class="all_services services_container">
+                        <div class="one_service mix Web-Development">
+                            <div class="service_img_contain">
+                                <img src="resources/img/frontend2.svg" alt="">
+                            </div>
+                            <div class="service_detail_box">
+                                <h3>Frontend Design</h3>
+                            <p>I Design <span class="highlight_color_green">amazing</span> user interfaces. I mostly use <span class="highlight_color_green">H</span>tml, <span class="highlight_color_green">C</span>ss, and <span class="highlight_color_green">J</span>avascript. I also convert Psd, Xd, Ai to Html using Bootstrap </p>
+                            </div>
+                        </div>
+                        <div class="one_service mix Web-Development">
+                            <div class="service_img_contain">
+                                <img src="resources/img/backend.svg" alt="">
+                            </div>
+                            <div class="service_detail_box">
+                                <h3>Backend Development</h3>
+                            <p> I am a backend web developer also. I use <span class="highlight_color_green">PHP</span> to make your website dynamic. As database and SQL I use <span class="highlight_color_green">Laravel and MySql</span>. Sometimes I aso use Django a web based framework of Python.  </p>
+                            </div>
+                        </div>
+                        <div class="one_service mix Web-Development">
+                            <div class="service_img_contain">
+                                <img src="resources/img/graphic.svg" alt="">
+                            </div>
+                            <div class="service_detail_box">
+                                <h3>Psd-Xd-Ai-Figma to Html-Bootstrap</h3>
+                                <p>I worked in many project of <span class="highlight_color_green">PSD - HTML</span> conversion. I also serve Adobe Xd, Illustrator, figma to Html & bootstrap. And I do it with  responsibility.</p>
+                            </div>
+                        </div>
+                        <div class="one_service mix Web-Development">
+                            <div class="service_img_contain">
+                                <img src="resources/img/responsive.svg" alt="">
+                            </div>
+                            <div class="service_detail_box">
+                                <h3>Responsive Design</h3>
+                                <p>I design websites with mobile responsiveness. I build device friendly user interfaces. This makes your website more good looking in all devices which increases the traffic also.</p>
+                            </div>
+                        </div>
+                        <div class="one_service mix Graphics-Design">
+                            <div class="service_img_contain">
+                                <img src="resources/img/frontend.svg" alt="">
+                            </div>
+                            <div class="service_detail_box">
+                                <h3>Photoshop</h3>
+                                <p>Not only for psd-html conversion I also use <span class="highlight_color_green">Adobe Photoshop</span> for photo editing and illustrations.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="one_service mix Graphics-Design">
+                            <div class="service_img_contain">
+                                <img src="resources/img/SVG.svg" alt="">
+                            </div>
+                            <div class="service_detail_box">
+                                <h3>Scalable Vector Graphics (SVG)</h3>
+                                <p><span class="highlight_color_green">Scalable Vector Graphics (SVG) </span> is used mostly in websites. It is easy to make those graphics responsive.they are so durable also.I am a intermediate designer in the field of SVG's.</p>
+                            </div>
+                        </div>
+                        <div class="one_service mix Photography">
+                            <div class="service_img_contain">
+                                <img src="resources/img/photoEdit.svg" alt="">
+                            </div>
+                            <div class="service_detail_box">
+                                <h3>Photo Editing</h3>
+                                <p>I occasionally edit photoes. I normally edit portrait photoes. I use <span class="highlight_color_green">Photoshop</span> & <span class="highlight_color_green">Adobe Lightroom</span> to edit photoes. You can visit some of my works in our photography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                <div class="service_btn_contain">
+                                    <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="one_service mix Photography">
+                            <div class="service_img_contain">
+                                <img src="resources/img/video.svg" alt="">
+                            </div>
+                            <div class="service_detail_box">
+                                <h3>Video Editing</h3>
+                                <p>I occasionally edit Videos. I use <span class="highlight_color_green">Filmora X</span> & <span class="highlight_color_green">DaVinci Resolve 16</span> to edit Videos. You can visit some of my works in our photography & Videography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                <div class="service_btn_contain">
+                                    <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
     </div>
     <script src="resources/js/index.js"></script>
     <script src="resources/js/typed.min.js"></script>
+    <script src="resources/js/mixitup.min.js"></script>
     <script>
         var typed3 = new Typed('.typing', {
         strings: ['Web Designer', 'Web Developer','SVG Designer','Youtuber'],
@@ -143,6 +244,11 @@
         backSpeed: 60,
         loop: true
   });
+    </script>
+    <script>
+        $(document).ready(function(){
+            var mixer = mixitup('.services_container');
+        });
     </script>
 </body>
 </html>
