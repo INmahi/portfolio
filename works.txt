@@ -51,6 +51,8 @@ start home
 
 . image gallayry ( https://www.youtube.com/watch?v=C1B1Fx3XKOg )
 
+.progress bar ( https://www.jqueryscript.net/loading/Radial-Progress-Bar-jQuery-SVG-CSS3.html )
+
 
 
 /*=========== Layout =============/
