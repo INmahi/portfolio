@@ -161,7 +161,7 @@
         margin-bottom: 1rem;
     }
     .navbar_content_wrapper{
-      flex-direction: column;
+      flex-direction: row;
     }
     .manubar ul{
       flex-direction: column;
