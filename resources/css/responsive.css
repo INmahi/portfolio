@@ -2,7 +2,7 @@
   @media(min-width: 992px) {
     /*home*/
     .home_content{
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: nowrap;
     }
     .left img{
@@ -10,6 +10,12 @@
     }
     .common_btn:first-child{
       margin-left: 0;
+    }
+    .about_content{
+      justify-content: center;
+    }
+    .about_left{
+      width: 25%;
     }
   }
   /* popup */
@@ -40,6 +46,14 @@
         overflow: hidden;
         font-size: 1.8rem; 
     }
+    /* SHOW THE MONEUBAR */
+    .manubar{
+      display: none;
+    }
+    /* MAKE THE MENU ICON VISIBLE */
+.menu_iconBox{
+  display: block;
+}
     .about_left img{
       height: 30rem;
     }
@@ -55,6 +69,11 @@
       top: 56%;
       left: 45%;
       opacity: 1;
+  }
+  .sticky .sticky_logo img{
+    width: 77%;
+    margin-top: 5px;
+    min-width: 7rem;
   }
    
   }
@@ -119,7 +138,7 @@
   }
     /* popup */
     .popup_content{
-        width: 30rem;
+        width: 34rem;
         height: auto;
     }
     #done_btn{
