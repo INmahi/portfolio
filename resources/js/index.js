@@ -17,6 +17,20 @@ getWebContent.addEventListener("click",()=>{
     getPopUp.style.display="none";
     getWebContent.classList.remove("allwrap")
 })
+// jquery
+$(document).ready(function(){
+    //sticky navbar
+    $('.track-2nd-section').waypoint(function(direction){
+        if(direction=="down"){
+            $('#get_nav').addClass('sticky');
+        }
+        else{
+            $('#get_nav').removeClass('sticky');
+        }
+    })
+    //mixitup
+    var mixer = mixitup('.services_container');
+});
 ///backtotop
 const toTop = document.querySelector(".to-top");
 window.addEventListener("scroll", () => {

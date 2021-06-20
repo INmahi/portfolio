@@ -49,15 +49,17 @@
        </div>
     </div>
     <div class="" id="web_content">
-        <div class="navigation">
+        <div class="navigation" id="get_nav">
             <div class="common_wrapper">     
                 <div class="navbar_content_wrapper">
-                    <div class="logo_div" id="totop">
+                    <div class="logo_div">
                         <h3 class="logo_txt_h3">Portfo<span class="highlight_color" id="spcecial_hglgt make_space">lio<span class="bullet">.</span>
                         </span></h3>
                     </div>
                     <div class="sticky_logo">
-                        <img src="resources/img/name.png" alt="">
+                        <a href="#home">
+                            <img src="resources/img/name.png" alt="">
+                        </a>
                     </div>
                     <div class="manubar">
                         <ul>
@@ -88,7 +90,7 @@
                 <div class="common_wrapper">
                     <div class="home_content">
                         <div class="left">       
-                            <img src="resources/img/home image tryouts/undraw_version_control_re_mg66 (1).svg" alt="">
+                            <img src="resources/img/home image tryouts/undraw_version_control_re_mg66 (1).svg" alt=""  id="totop">
                         </div>
                         <div class="right">
                             <div class="home_txtdiv_right">
@@ -108,7 +110,7 @@
                 </div>
             
         </section>
-        <section class="about" id="about">
+        <section class="about track-2nd-section" id="about">
             <div class="about_sec_header">
                 <h2>About Me</h2>
             </div>
@@ -240,6 +242,7 @@
         </a>
     </div>
     <script src="resources/js/index.js"></script>
+    <script src="resources/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/typed.min.js"></script>
     <script src="resources/js/mixitup.min.js"></script>
     <script>
@@ -251,9 +254,7 @@
   });
     </script>
     <script>
-        $(document).ready(function(){
-            var mixer = mixitup('.services_container');
-        });
+
     </script>
 </body>
 </html>

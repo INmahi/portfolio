@@ -96,6 +96,27 @@
       width: 95%;
 
   }
+  .logo_div h3{
+    color: rgb(31, 30, 30);
+    position: relative;
+  
+  }
+  logo_div h3,.spcecial_hglgt{
+    font-size: 3.6rem;
+  }
+  .sticky{
+    background: rgb(13, 80, 156);
+
+  }
+  .sticky .logo_div{
+    display: block;
+  }
+  .sticky .sticky_logo{
+    display: none;
+  }
+  .sticky_logo{
+    display: none;
+  }
     /* popup */
     .popup_content{
         width: 30rem;
