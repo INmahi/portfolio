@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahi</title>
     <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
-    <link rel="stylesheet" href="resources/css/stopDark.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/grid.css">
     <link rel="stylesheet" href="resources/css/responsive.css">
+    <link rel="stylesheet" href="resources/css/progressbar/style.css">
     <!--font family :poppins, roboto, titillium web, Dawing of new day-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,600&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&family=Dawning+of+a+New+Day&display=swap"" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,600&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
      <!-- font awsome cdn -->
      <script src="https://kit.fontawesome.com/48257ee1fc.js" crossorigin="anonymous"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -53,12 +53,12 @@
             <div class="common_wrapper">     
                 <div class="navbar_content_wrapper">
                     <div class="logo_div">
-                        <h3 class="logo_txt_h3">Portfo<span class="highlight_color" id="spcecial_hglgt make_space">lio<span class="bullet">.</span>
+                        <h3 class="logo_txt_h3">Portfo<span class="highlight_color" id="spcecial_hglgt">lio<span class="bullet">.</span>
                         </span></h3>
                     </div>
                     <div class="sticky_logo">
                         <a href="#home">
-                            <img src="resources/img/name.png" alt="">
+                            <img src="resources/img/name_white.png" alt="">
                         </a>
                     </div>
                     <div class="manubar">
@@ -73,10 +73,10 @@
                                 <a href="#services">Services</a>
                             </li>
                             <li>
-                                <a href="#">Skills</a>
+                                <a href="#skills">Skills</a>
                             </li>
                             <li>
-                                <a href="#">Works</a>
+                                <a href="#works">Works</a>
                             </li>
                             <li>
                                 <a href="#">Contact</a>
@@ -97,12 +97,12 @@
                     </button>
                 </div>
                 <div class="mobile_menu">
-                    <a href="#home" id="mobileMenulist">Home</a>
-                    <a href="#about" id="mobileMenulist">About</a>
-                    <a href="#services" id="mobileMenulist">Services</a>
-                    <a href="#" id="mobileMenulist">Skills</a>
-                    <a href="#" id="mobileMenulist">Works</a>  
-                    <a href="#" id="mobileMenulist">Contact</a>
+                    <a href="#home" class="mobileMenulist" onclick="closeNave()">Home</a> 
+                    <a href="#about" class="mobileMenulist" onclick="closeNave()">About</a>
+                    <a href="#services" class="mobileMenulist" onclick="closeNave()">Services</a>
+                    <a href="#skills" class="mobileMenulist" onclick="closeNave()">Skills</a>
+                    <a href="#works" class="mobileMenulist" onclick="closeNave()">Works</a>  
+                    <a href="#" class="mobileMenulist" onclick="closeNave()">Contact</a>
             </div>
            </div> 
         </div>
@@ -110,7 +110,7 @@
                 <div class="common_wrapper">
                     <div class="home_content">
                         <div class="left">       
-                            <img src="resources/img/home image tryouts/undraw_version_control_re_mg66 (1).svg" alt=""  id="totop">
+                            <img src="resources/img/homeimg/mainhomeimg.svg" alt=""  id="totop">
                         </div>
                         <div class="right">
                             <div class="home_txtdiv_right">
@@ -256,6 +256,136 @@
                 </div>
             </div>
         </section>
+        <section class="skills_sec" id="skills">
+           <div class="common_wrapper">
+                <div class="skills_header">
+                    <h3> My Skills </h3>
+            </div>
+            <div class="skills_content">
+                <div class="skills_left">
+                    <h4 class="skills_leftName" style="font-size: 1.9rem;font-family: 'Roboto', sans-serif; margin-bottom: 2rem;"> I Got Some <span class="highlight_color">Skills.</span></h4>
+                    <p class="skills_leftNote">
+                        I have been learning various <span class="highlight_color_green">Technologies</span> since the last 2/3 years. Now I am quite fimiliar and professional with some of them. I have 2 years of experince in <span class="highlight_color_green">HTMl & CSS </span>. I am also an intermidiate <span class="highlight_color_green"> JAVASCRIPT </span> programmer. I use Javascript to make my frontend look more interactive. I also learnt <span class="highlight_color_green">Node.js</span> to use Javascript in servers. In the field of servers (<span class="highlight_color_green">Backend Development</span>) I Use <span class="hilight_color_green">PHP & Laravel</span>.I have learnt some Python also. But i didn't enlist it because I still don't use <span class="highlight_color_green">Python</span> in Real World Projects. I have acquired knowledge of some <span class="hilight_color_green">web frameworks</span> like <span class="hilight_color_green">Jquery, Bootstrap, Sass</span>. To do <span class="hilight_color_green">PSD-HTML Conversion</span> I need Photo Editing and graphics softwares like <span class="hilight_color_green">Adobe Photoshop, Figma</span> ect. So I know basics of them too. I edit Photoes and videos sometimes. Visit my Works at  <a href="https://facebook.com/teamclique6">TEAM CLIQUE.</a> Learning new skills is like my passion and that's why I am still learning new Technologies. Keep me in your prayers. 
+                    </p>
+                    <div class="skills_logo_contain">
+                        <a href="https://www.w3schools.com/html/default.asp"><img src="resources/img/1-removebg-preview.png" alt=""></a>
+                        <a href="https://www.w3schools.com/css/default.asp"><img src="resources/img/2-removebg-preview.png" alt=""></a>
+                        <a href="https://www.w3schools.com/jquery/default.asp"><img src="resources/img/3-removebg-preview.png" alt=""></a>
+                        <a href="https://www.w3schools.com/bootstrap4/default.asp"><img src="resources/img/4-removebg-preview.png" alt=""></a>
+                        <a href="https://www.w3schools.com/php/default.asp"><img src="resources/img/5-removebg-preview.png" alt=""></a>
+                        <a href="https://www.w3schools.com/js/default.asp"><img src="resources/img/6-removebg-preview.png" alt=""></a>
+                        <a href="https://www.w3schools.com/python/default.asp"><img src="resources/img/7-removebg-preview.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="about_right" style="width: 50rem; margin-top: 3rem;">
+                    <div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> HTML </span>
+                        </div> 
+                        <div id="bar1" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="99"></span>
+                      </div>
+                    </div>
+                    <div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> CSS </span>
+                        </div> 
+                        <div id="bar2" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="90"></span>
+                      </div>
+                    </div><div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> SASS </span>
+                        </div> 
+                        <div id="bar3" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="55"></span>
+                      </div>
+                    </div><div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> Bootstrap </span>
+                        </div> 
+                        <div id="bar4" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="75"></span>
+                      </div>
+                    </div><div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> Javascript </span>
+                        </div> 
+                        <div id="bar5" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="85"></span>
+                      </div>
+                    </div>
+                    <div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> Jquery </span>
+                        </div> 
+                        <div id="bar6" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="70"></span>
+                      </div>
+                    </div>
+                    <div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> PHP </span>
+                        </div> 
+                        <div id="bar7" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="30"></span>
+                      </div>
+                    </div>
+                    <div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> Laravel </span>
+                        </div> 
+                        <div id="bar8" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="10"></span>
+                      </div>
+                    </div><div class="bar_wrap">
+                        <div class="skill_name">
+                            <span> Photoshop </span>
+                        </div> 
+                        <div id="bar9" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="82"></span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+        <section class="work_sec" id="works">
+            <div class="work_header" style="text-align: center; padding-top: 3.6rem; font-size: 1.7rem;">
+                <h2>My Portfolio</h2>
+            </div>
+            <div class="work_notice" style="text-align: center; padding-top: 5rem; margin-bottom: 50px;">
+                <button type="button" class="common_btn" onclick="window.open('https://sites.google.com/view/mahi01portfolio/home')" style="width: 50rem;margin-top: 3rem;"> See Works In Google Sites Page </button><br>
+                <button type="button" class="common_btn" onclick="window.open('https://inmahi.github.io/javascript/js5.html')" style="width: 50rem; margin-left: 0;margin-top: 3rem;"> See My JAVASCRIPT Programmes </button>
+            </div>
+        </section>
         <a href="#totop" class="to-top" title="Scroll Back to Top">
             <i class="fas fa-chevron-up" aria-hidden="true" style="
             position: absolute;left: 13%;"></i>
@@ -273,7 +403,30 @@
         loop: true
   });
     </script>
+    <!-- <script src="//code.jquery.com/jquery-3.1.0.slim.min.js"></script> -->
+    <!-- <script src="js/jquery.barfiller.js"></script>
+    <script src="resources/js/jquery.barfiller.js"></script> -->
+    <script src="resources/js/jquery.barfiller.js"></script>
     <script>
+    //minified
+    $("#bar1").barfiller(),
+    $("#bar1").barfiller({ barColor: "#e34c26",duration: 4000, animateOnResize: !0, symbol: "%" }),
+    $("#bar2").barfiller(),
+    $("#bar2").barfiller({ barColor: "#264de4",duration: 4000, animateOnResize: !0, symbol: "%" }),
+    $("#bar3").barfiller(),
+    $("#bar3").barfiller({ barColor: "#16b597",duration: 4000, animateOnResize: !0, symbol: "%" }),
+    $("#bar4").barfiller(),
+    $("#bar4").barfiller({ barColor: "#080135",duration: 4000, animateOnResize: !0, symbol: "%" }),
+    $("#bar5").barfiller(),
+    $("#bar5").barfiller({ barColor: "#f0db4f",duration: 4000, animateOnResize: !0, symbol: "%" }),
+    $("#bar6").barfiller(),
+    $("#bar6").barfiller({ barColor: "#78cff5",duration: 4000, animateOnResize: !0, symbol: "%" }),
+    $("#bar7").barfiller(),
+    $("#bar7").barfiller({ barColor: "#787CB5",duration: 4000, animateOnResize: !0, symbol: "%" }),
+    $("#bar8").barfiller(),
+    $("#bar8").barfiller({ barColor: "#F05340",duration: 4000, animateOnResize: !0, symbol: "%" }),
+    $("#bar9").barfiller(),
+    $("#bar9").barfiller({ barColor: "#29c464",duration: 4000, animateOnResize: !0, symbol: "%" });
 
     </script>
 </body>

@@ -1,3 +1,18 @@
+// jquery
+$(document).ready(function(){
+    //sticky navbar
+    $('.track-2nd-section').waypoint(function(direction){
+        if(direction=="down"){
+            $('#get_nav').addClass('sticky');
+        }
+        else{
+            $('#get_nav').removeClass('sticky');
+        }
+    });
+    //mixitup
+    var mixer = mixitup('.services_container');
+});
+
 //preloader
 var getPopUp = document.getElementById('popup');
 var getDoneBtn = document.getElementById('done_btn');
@@ -15,22 +30,9 @@ function runPreloader(){
 }
 getWebContent.addEventListener("click",()=>{
     getPopUp.style.display="none";
-    getWebContent.classList.remove("allwrap")
-})
-// jquery
-$(document).ready(function(){
-    //sticky navbar
-    $('.track-2nd-section').waypoint(function(direction){
-        if(direction=="down"){
-            $('#get_nav').addClass('sticky');
-        }
-        else{
-            $('#get_nav').removeClass('sticky');
-        }
-    })
-    //mixitup
-    var mixer = mixitup('.services_container');
+    getWebContent.classList.remove("allwrap");
 });
+
 //////Mobile menu//////
     //OPENIG MENU
     var getmenuoverlay = document.getElementById('getMenuOverlay');
@@ -41,15 +43,18 @@ $(document).ready(function(){
     });
     // CLOSING MENU
         //when user clicks any item
-    var mobileMenuItem =document.getElementById('mobileMenulist');
-    mobileMenuItem.addEventListener("click",function(){
-        getmenuoverlay.style.display="none";
-    });
+    // var mobileMenuItem =document.querySelectorAll(".mobileMenulist");
+    //     mobileMenuItem.addEventListener("click",function(){
+    //         getmenuoverlay.style.display="none";
+    // });
         //when user clicks the close btn
     var getMenuCloseBtn = document.getElementById('closeMenuBtn');
 function closeNave(){
     getmenuoverlay.style.display="none";
 }
+
+
+
 ///backtotop
 const toTop = document.querySelector(".to-top");
 window.addEventListener("scroll", () => {
@@ -60,9 +65,9 @@ window.addEventListener("scroll", () => {
     var getDoneBtn = document.getElementById('done_btn');
 getDoneBtn.addEventListener("click",()=>{
     getPopUp.style.display="none";
-    getWebContent.classList.remove("allwrap")
+    getWebContent.classList.remove("allwrap");
     // getPloader.style.display="none";
-})
+});
 //// autotype
 
 

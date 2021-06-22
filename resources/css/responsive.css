@@ -25,7 +25,9 @@
         }
        /*home*/
    
-    
+       .home_content{
+        justify-content: space-between;
+        }
     /* popup */
     .popup_content{
         flex-direction: column;
@@ -75,6 +77,13 @@
     margin-top: 5px;
     min-width: 7rem;
   }
+  .skills_content{
+    flex-direction: column;
+  }
+  .skills_left {
+    width: 100%;
+    overflow: hidden;
+  }
    
   }
   @media(max-width:600px){
@@ -112,7 +121,7 @@
     /*home note*/
     .right .home_txtdiv_right .home_note {
       font-size: 1.8rem;
-      width: 95%;
+      width: 95%!important;
 
   }
   .logo_div h3{
@@ -191,9 +200,10 @@
   .about_left{
     width: 50%;
   }
-  .about_left img{
-    height: 30rem; 
-  }
+  .about_left img {
+    height: 15rem;
+    width: 7rem;
+}
 
   /*services*/
   .services .service_header h2::after{
@@ -202,5 +212,18 @@
   .service_btn_contain .common_btn{
     margin-left: 0;
   } 
+  .to-top{
+    width: 25px;
+    height: 25px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    z-index: 999999999999999999999;
+}
+  .to-top .fa-chevron-up{
+    font-size: 22px;
+  }
 
   }  
