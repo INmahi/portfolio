@@ -543,6 +543,14 @@ ul{
   width: 52rem;
   margin-left: 2rem;
 }
+.about_bold {
+  display: inline-block;
+  color:rgb(10, 10, 10);
+  width: 10rem;
+  font-size: 1.8rem;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
 .about_left img{
 
   width: 92%;
@@ -569,7 +577,7 @@ ul{
 }
 
 /*==============
-    Services 
+    Services
  ===============*/
 .services{
   padding-top: 2rem;
@@ -692,7 +700,7 @@ ul{
     font-size: 1.5rem;
 }
 /*==============
-    Skills 
+    Skills
  ===============*/
 .skills_sec{
   background:#bcbdbd33 ;
@@ -781,3 +789,39 @@ ul{
   top: 100%;
   z-index: 9
 } */
+
+/* WORK SECTION*/
+.imgInLeft,.imgInRight{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+.imgInLeft{
+  
+background: #cacacaf0; 
+}
+.imgInRight{
+flex-direction: row-reverse;
+}
+.imgInLeft>img,.imgInRight>img{
+  width: 42rem;
+  height: 19rem;
+}
+.work_desc{
+  margin: 0 4.5rem 0 4.5rem;
+}
+.work_desc b{
+  font-size: 1.4rem;
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 2rem;
+}
+.work_desc p{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+
+}
+.imgInLeft>p,.imgInRight>p{
+  width: 47rem;
+  margin: 0 20px 0 20px;
+}

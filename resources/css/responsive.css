@@ -52,6 +52,9 @@
     .manubar{
       display: none;
     }
+    .map{
+      display: none;
+    }
     /* MAKE THE MENU ICON VISIBLE */
 .menu_iconBox{
   display: block;
@@ -84,7 +87,18 @@
     width: 100%;
     overflow: hidden;
   }
-   
+  .imgInLeft,.imgInRight{
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgInRight{
+    flex-direction: column;
+  }
+  .imgInLeft>img, .imgInRight>img {
+    width: 29rem;
+    height: 16rem;
+} 
+
   }
   @media(max-width:600px){
     /* popup */
