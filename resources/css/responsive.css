@@ -55,6 +55,10 @@
     .map{
       display: none;
     }
+    .imgInLeft{
+  
+      background: transparent; 
+      }
     /* MAKE THE MENU ICON VISIBLE */
 .menu_iconBox{
   display: block;
