@@ -570,8 +570,8 @@ ul{
   width: 92%;
   height: 45rem;
   border-radius: 4px;
-  max-width: 28rem;
-  max-height: 35rem;
+  max-width: 34rem;
+  max-height: 37rem;
 
 }
 .abt_h3{
@@ -856,6 +856,8 @@ flex-direction: row-reverse;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 .marketplace_icon {
   display: flex;
@@ -973,4 +975,89 @@ flex-direction: row-reverse;
   margin-top: 10px;
   font-size: 1.9rem;
   color: #5f5656;
+}
+footer{
+  background:rgb(34, 34, 34);
+}
+.footer_part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.footer_links{
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_links .fab{
+  font-size: 3rem;
+  margin-left: 0.7rem;
+}
+.footfb{
+  color: #0a59ca;
+}
+.footfb:hover{
+  color:#3b71bd ;
+}
+.footyt{
+  color: #c4302b;
+}
+.footyt:hover{
+  color:#df5550 ;
+}
+.footmssngr{
+  color: #00acee;
+}
+.footmssngr:hover{
+  color:#117ca7 ;
+}
+.footig{
+  color: #ab3f88;
+}
+.footig:hover{
+  color: #a73c85;
+}
+.foottwt{
+  color: #0a59ca;
+}
+.foottwt:hover{
+  color: #03429b;
+}
+.footgithub{
+  color: rgb(184, 199, 240);
+}
+.footgithub:hover{
+  color: rgb(193, 198, 214);
+}
+.footer_part2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.text_footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+.text_footer a{
+  color: #999;
+  font-size: 1.4rem;
+  margin-left: 2.5rem;
+}
+.text_footer a:hover{
+  color: rgb(221, 217, 217);
+}
+.copy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+.copy .copytxt{
+  color: #999;
+  font-size: 1.3rem;
 }
