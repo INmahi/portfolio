@@ -105,7 +105,7 @@ ul{
 /*==== preloader ====*/
 #loading{
     width: 100%;
-    height: 100vh;
+    height: 300vh;
     background: rgba(255, 255, 255, 0.753) url('../../resources/preloaders/Triangles-1s-200px\ \(1\).gif') no-repeat center;
     z-index: 9999999;
     display: block;
@@ -475,7 +475,7 @@ ul{
 .home .right .home_txtdiv_right h1{
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-  font-size: 4.7rem;
+  font-size: 3.7rem;
   color: rgb(43, 42, 42);
   margin-bottom: .3rem;
   margin-top: .1rem;
@@ -736,7 +736,7 @@ ul{
 }
 .skills_leftNote {
   font-size: 1.8rem;
-  line-height: 3rem;
+  line-height: 2.7rem;
   word-spacing: 2px;
   letter-spacing: 0px;
   font-family: 'Titillium Web', sans-serif;
@@ -751,7 +751,7 @@ ul{
 }
 .bar_wrap{
   display: flex;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.8rem;
 }
 .skill_name{
   width: 7rem;
@@ -819,7 +819,7 @@ background: #cacacaf0;
 flex-direction: row-reverse;
 }
 .imgInLeft>img,.imgInRight>img{
-  width: 42rem;
+  width: 35rem;
   height: 19rem;
   overflow: hidden;
 }
@@ -846,7 +846,7 @@ flex-direction: row-reverse;
 .social_icon_wrapper{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 4rem;
   margin-bottom: 4rem;
   flex-wrap: wrap;

@@ -17,56 +17,71 @@
     .about_left{
       width: 25%;
     }
+    .desc_for_lgDevices{
+      display: block;
+    }
+    .desc_for_smDevices{
+      display: none;
+    }
   }
+
+@media(max-width:991px){
+  .desc_for_lgDevices{
+    display: none;
+  }
+  .desc_for_smDevices{
+    display: block;
+  }
+}
   /* popup */
   @media(max-width:767px){
-        html{
+html{
           font-size: 56.5%;
-        }
+}
        /*home*/
    
-       .home_content{
+.home_content{
         justify-content: space-between;
-        }
+}
     /* popup */
-    .popup_content{
+.popup_content{
         flex-direction: column;
         width: 53rem;
         height: 55rem;
-    }
-    .img_box{
+ }
+.img_box{
       width: 30rem;
-    }
-    .img_box::after{
+}
+.img_box::after{
       width: 30rem;
       height: 30rem;
       top: 0rem;  
-    }
-    #done_btn{
+}
+#done_btn{
         width: 10rem;
         height: 3rem;
         overflow: hidden;
         font-size: 1.8rem; 
-    }
+}
     /* SHOW THE MONEUBAR */
-    .manubar{
+.manubar{
       display: none;
-    }
-    .map{
+}
+.map{
       display: none;
-    }
-    .imgInLeft{
+}
+.imgInLeft{
   
       background: transparent; 
-      }
+}
     /* MAKE THE MENU ICON VISIBLE */
 .menu_iconBox{
   display: block;
 }
-    .about_left img{
-      height: 30rem;
-    }
-    .about .about_sec_header::before {
+.about_left img{
+  height: 30rem;
+}
+.about .about_sec_header::before {
       content: '';
       background: url(../img/cyan_underline.png);
       display: inline-block;
@@ -78,30 +93,30 @@
       top: 56%;
       left: 45%;
       opacity: 1;
-  }
-  .sticky .sticky_logo img{
+}
+.sticky .sticky_logo img{
     width: 77%;
     margin-top: 5px;
     min-width: 7rem;
-  }
-  .skills_content{
+}
+.skills_content{
     flex-direction: column;
-  }
-  .skills_left {
+}
+.skills_left {
     width: 100%;
     overflow: hidden;
-  }
-  .imgInLeft,.imgInRight{
+}
+.imgInLeft,.imgInRight{
     flex-direction: column;
     align-items: center;
-  }
-  .imgInRight{
+}
+.imgInRight{
     flex-direction: column;
-  }
-  .imgInLeft>img, .imgInRight>img {
+}
+.imgInLeft>img, .imgInRight>img {
     width: 29rem;
     height: 16rem;
-} 
+}
 
   }
   @media(max-width:600px){
