@@ -109,6 +109,9 @@
                     <a href="#contact" class="mobileMenulist" onclick="closeNave()">Contact</a>
             </div>
            </div> 
+           <div class="progress-container" id="myPContain">
+            <div class="progress-bar" id="myBar"></div>
+          </div> 
         </div>
         <section class="home" id="home">
                 <div class="common_wrapper">
@@ -523,7 +526,7 @@
             </div>
             </div>
         </section>
-        <footer>
+        <footer class="track-footer">
             <div class="footer_part1">
                 <div class="footer_links">
                     <a href="https://www.facebook.com/ishat.noor.mahi/"><i class="fab fa-facebook-square footfb"></i></a>
@@ -552,9 +555,12 @@
         </footer>
         <a href="#totop" class="to-top" title="Scroll Back to Top">
             <i class="fas fa-chevron-up" aria-hidden="true" style="
-            position: absolute;left: 13%;"></i>
+            position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);"></i>
         </a>
     </div>
+    <div class="online_status">
+        <div id="snackbar">You are <span id="status"></span></div> <!--online/offline detect-->
+      </div>
     <script src="resources/js/index.min.js"></script>
     <script src="resources/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/typed.min.js"></script>
@@ -567,6 +573,9 @@
         backSpeed: 60,
         loop: true
   });
+    </script>
+    <script>
+
     </script>
     <script src="resources/js/jquery.barfiller.js"></script>
     <script>

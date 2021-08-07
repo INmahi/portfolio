@@ -76,7 +76,6 @@ ul {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    border-radius: 82%;
     opacity: 0;
     pointer-events: none;
     transition: 0.4s all;
@@ -247,7 +246,7 @@ ul {
     width: 100%;
     z-index: 7654345678;
     background: rgba(13, 80, 156, 0.911);
-    height: 35px;
+    height: 32px;
     overflow: hidden;
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
@@ -1031,7 +1030,7 @@ ul {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    border-radius: 82%;
+    border-radius: 5%;
     opacity: 0;
     pointer-events: none;
     transition: 0.4s all;
@@ -1039,13 +1038,17 @@ ul {
     font-size: 32px;
     width: 41px;
     height: 40px;
-    box-shadow: 1px 4px 7px 1px #549273ab;
+    box-shadow: 1px 4px 7px 1px #262927ab;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
 }
 .to-top:hover {
     box-shadow: 0 6px 12px 0 grey;
 }
 .to-top.active {
-    bottom: 32px;
+    bottom: 50px;
     pointer-events: auto;
     opacity: 0.8;
     scroll-behavior: smooth;
@@ -1918,5 +1921,78 @@ footer {
     color: #999;
     font-size: 1.3rem;
 }
+/* ONLINE/OFFLINE ALERT SNACKBAR */
+#snackbar {
+    visibility: hidden;
+    min-width: 180px;
+    margin-left: -125px;
+    /* background-color: #d9534f; */
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 15px;
+  }
+  #snakbar .online{
+    background-color: #1da350;
+
+  }
+  #snackbar .offline{
+    background-color: #d9534f;
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  /* SCROLL INDICATOR */
+  .progress-container {
+    visibility: hidden;
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+  }
+  
+  .progress-bar {
+    height: 5px;
+    background: #04AA6D;
+    width: 0%;
+  }
+  
+  .content {
+    padding: 100px 0;
+    margin: 50px auto 0 auto;
+    width: 80%;
+  }
+
 
  /*====== END ======*/
