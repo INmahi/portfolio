@@ -5,7 +5,7 @@
     <meta name="description" content="Hey There !! I am a student of 10th in KBHS, Mymensingh. This is my personal portfolio website. Have a look at my new website">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahi</title>
+    <title>Mahi | Web Developer</title>
     <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
     <link rel="stylesheet" href="resources/css/style.min.css">
     <link rel="stylesheet" href="resources/css/responsive.min.css">
@@ -84,6 +84,9 @@
                             </li>
                             <li>
                                 <a href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a href="about-page.html">More</a>
                             </li>
                         </ul>
                     </div>
@@ -549,18 +552,25 @@
                     <a href="#contact">Feedback</a>
                 </div>
             </div>
+            <!-- ABOUT THIS PAGE  -->
+            <div class="abouPage">
+                <div class="myTxt" style="font-size: 17px;color: #ccc9c9;text-align: center;padding-bottom: 26px;"><a href="about-page.html">ABOUT THIS PAGE</a></div>
+            </div>
+            <!-- COPYRIGHT TEXT -->
             <div class="copy">
                 <div class="copytxt">&copy; Ishat Noor Mahi | 2021 | all rights reserved.</div>
             </div>
         </footer>
+        <!-- SCROLL BACK TO TOP BUTTON -->
         <a href="#totop" class="to-top" title="Scroll Back to Top">
             <i class="fas fa-chevron-up" aria-hidden="true" style="
             position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);"></i>
         </a>
     </div>
+    <!-- CHECK NETWORK STATUS AND SHOW SNACKBAR -->
     <div class="online_status">
         <div id="snackbar">You are <span id="status"></span></div> <!--online/offline detect-->
-      </div>
+    </div>
     <script src="resources/js/index.min.js"></script>
     <script src="resources/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/typed.min.js"></script>
@@ -574,12 +584,10 @@
         loop: true
   });
     </script>
-    <script>
-
-    </script>
     <script src="resources/js/jquery.barfiller.js"></script>
     <script>
     //minified
+    //show skill bar
     $("#bar1").barfiller(),
     $("#bar1").barfiller({ barColor: "#e34c26",duration: 4000, animateOnResize: !0, symbol: "%" }),
     $("#bar2").barfiller(),

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Portfolio | Mahi</title>
+    <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,600&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="resources/css/style.min.css"> -->
+     <!-- font awsome cdn -->
+     <script src="https://kit.fontawesome.com/48257ee1fc.js" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        
+        body{
+            background-color: rgb(239, 239, 240);
+            font-family: "Titillium Web", sans-serif;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .highlight_color {
+            color: #d11d41;
+            text-transform: capitalize;
+        }
+        .highlight_color_green {
+            color: #0d9144;
+        }
+        a {
+            text-decoration: none;
+            color: #0d9144;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .common_btn {
+            width: 8rem;
+            height: 3rem;
+            border-radius: 5px;
+            border: 0;
+            outline: 0;
+            box-shadow: 2px 5px 9px 0 grey;
+            background: #0d9144d6;
+            color: #dcdcdc;
+            font-size: 1.6rem;
+            font-family: "Titillium Web", sans-serif;
+            margin-left: 2rem;
+            margin-top: 0.8rem;
+            transition: 0.3s;
+            -webkit-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -ms-transition: 0.3s;
+            -o-transition: 0.3s;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 55%;
+            margin: 10% auto;
+            border-radius: 4px;
+            padding: 9px;
+            background: rgba(255, 255, 255, 0.493);
+            /* box-shadow: 5px 11px 15px 0px #808080b5; */
+        }
+        .name{
+            text-align: center;
+            font-size: 22px;
+        }
+        /* ACCORDION */
+    
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-30%);
+        }
+        .acc_contain{
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+            font-size: 20px;
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .accordion::after{
+            content: "\002B";
+            float: right;
+            font-size: 30px;
+        }
+        .active, .accordion:hover {
+            background-color: #ccc;
+        }
+        .active:after {
+            content: "\2212";
+        }
+        .panel {
+            padding: 0 18px;
+            background-color: rgb(243, 240, 240);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+        .to-top {
+            background-color: #fff;
+            position: fixed;
+            bottom: 16px;
+            right: 32px;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            opacity: 0;
+            pointer-events: none;
+            transition: 0.4s all;
+            color: #000;
+            font-size: 32px;
+            width: 41px;
+            height: 40px;
+            box-shadow: 1px 4px 7px 1px #549273ab;
+        }
+        .to-top:hover {
+            box-shadow: 0 6px 12px 0 grey;
+        }
+        .to-top.active {
+            bottom: 32px;
+            pointer-events: auto;
+            opacity: 0.8;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="content">
+                <div class="hero">
+                    <div class="name" >
+                        <h3 id="totop">About My Portfolio Website</h3>
+                    </div>
+                    <div class="desc" style="padding-bottom: 30px;text-align: center;">
+                        This is Ishat Noor Mahi's personal portfolio website.
+                    </div>
+                </div>
+                <div class="faq">
+                    <div class="acc_contain">
+                        <div class="accordion accordion_btn">Key Features. . .</div>
+                        <div class="panel">
+                            <p><strong>Here are some features</strong></p>
+                            <ul>
+                                <li>Mobile Responsive</li>
+                                <li>Cross browser compatible</li>
+                                <li>Scroll Indicator</li>
+                                <li>Online staus ditector</li>
+                                <li>Working Contact Form & more</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="acc_contain">
+                        <div class="accordion accordion_btn"><p>Where did you find <span class="highlight_color">The SVG's?</span></p></div>
+                        <div class="panel">
+                            <p><strong>From online</strong></p>
+                            <p>I Collected them  from a website : <a href="https://undraw.co/illustrations">https://undraw.co/illustrations</a></p>
+                        </div>
+                    </div>
+                    <div class="acc_contain">
+                        <div class="accordion accordion_btn"> <p>Are all the Image <span class="highlight_color">Copyright free?</span></p> </div>
+                        <div class="panel">
+                            <p><strong>Yes</strong></p>
+                            <p>Although there are a few jpg and png images, all of them are royality free.</p>
+                        </div>
+                    </div><div class="acc_contain">
+                        <div class="accordion accordion_btn"> <p>Where Can I Find the <span class="highlight_color">Source Codes?</span></p></div>
+                        <div class="panel">
+                            <p><strong>You Can check my <span class="highlight_color">Github</span></strong></p>
+                            <p>Check out my public repository on <a href="https://github.com/INmahi/portfolio">Github</a></p>
+                        </div>
+                    </div>
+                    <div class="acc_contain">
+                        <div class="accordion accordion_btn"> Have any Suggestions?</div>
+                        <div class="panel">
+                            <p><strong>Contact me</strong></p>
+                            <ul>
+                                <li><a href="index.html#contact">Contact through the website</a></li>
+                                <li><a href="https://www.instagram.com/ishat_noor_mahi/" class="" style="color:#009900 ;">DM</a> me on Instagram</li>
+                                <li><a href="http://m.me/ishat.noor.mahi" class="" style="color: #009900;">Message</a> me on Facebook</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="acc_contain">
+                        <div class="accordion accordion_btn"> Report a problem</div>
+                        <div class="panel">
+                            <p><strong>Please contact me</strong></p>
+                            <ul>
+                                <li><a href="index.html#contact">Contact through the website</a></li>
+                                <li><a href="https://www.instagram.com/ishat_noor_mahi/" class="" style="color:#009900 ;">DM</a> me on Instagram</li>
+                                <li><a href="http://m.me/ishat.noor.mahi" class="" style="color: #009900;">Message</a> me on Facebook</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="else" style="text-align: center;">
+                    <p>Author : <div class="highlight_color_green">ISHAT NOOR MAHI</div></p>
+                </div>
+                <div class="st" style="display: flex;justify-content: center;align-items: center;padding-bottom: 16px;">
+                    <button class="common_btn"><a href="index.html" style="color: #fff;">Go Back</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#totop" class="to-top" title="Scroll Back to Top">
+        <i class="fas fa-chevron-up" aria-hidden="true" style="
+        position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);"></i>
+    </a>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
+        }
+        //make the first accordion active
+        // acc[0].nextElementSibling.style.maxHeight="200px"
+        //to-top 
+        const toTop = document.querySelector(".to-top");
+        window.addEventListener("scroll", () => {
+            window.pageYOffset > 50 ? toTop.classList.add("active") : toTop.classList.remove("active");//show the to-top btn if the user scrolls 100 in Y axis
+        });
+</script>
+</body>
+</html>
