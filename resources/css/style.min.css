@@ -548,11 +548,12 @@ ul {
     font-family: Poppins, sans-serif;
 }
 .about_left img {
-    width: 92%;
-    height: 45rem;
-    border-radius: 4px;
+    width: 100%;
+    height: 46rem;
+    border-radius: 0px;
     max-width: 34rem;
     max-height: 37rem;
+    box-shadow: 4px -3px 0px 0px #04aa6d;
 }
 .abt_h3 {
     font-size: 2.5rem;
@@ -728,12 +729,14 @@ ul {
 .skill_name {
     width: 7rem;
 }
-.imgInLeft,
-.imgInRight {
+.imgInLeft, .imgInRight {
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
     padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .imgInLeft > img,
 .imgInRight > img {
