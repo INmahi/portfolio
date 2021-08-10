@@ -101,6 +101,8 @@ ul {
     z-index: 9999999;
     display: block;
 }
+
+
 .allwrap {
     filter: blur(0.07rem);
     -webkit-filter: blur(0.07rem);
@@ -245,7 +247,7 @@ ul {
     position: fixed;
     width: 100%;
     z-index: 7654345678;
-    background: rgba(13, 80, 156, 0.911);
+    background: rgb(26 32 44 / 96%)!important;
     height: 35.5px;
     overflow: hidden;
     transition: all 0.2s ease;
@@ -253,6 +255,7 @@ ul {
     -moz-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
+    padding-top: 2px;
 }
 .sticky .manubar ul li a {
     color: #e7e2e2;
@@ -280,7 +283,7 @@ ul {
     padding-right: 0.6rem;
 }
 .logo_div h3 {
-    color: #333;
+    color: #d4cece;
     position: relative;
 }
 .sticky_logo {
@@ -322,7 +325,7 @@ ul {
     margin-left: 0;
 }
 .manubar ul li a {
-    color: #333;
+    color: #e2e0e0;
     font-size: 1.7rem;
     font-family: Roboto, sans-serif;
     transition: 0.2s ease;
@@ -367,11 +370,12 @@ ul {
     flex-direction: column;
     text-align: center;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .mobile_menu a {
     color: #dcd5d5;
     font-size: 1.9rem;
-    border: dotted 1px #999;
     width: 100%;
     padding: 20px;
     font-family: "Titillium Web", sans-serif;
@@ -406,12 +410,15 @@ ul {
 .menu_iconBox {
     display: none;
 }
-.home{
-    background-image:linear-gradient(rgba(26, 32, 44, 0.778),rgba(26, 32, 44, 0.796)),url(img/Huge-Backgrounds-53.jpg);
+.navigation, .home {
+    background-image: linear-gradient(to left,rgb(26 32 44 / 80%),rgb(26 32 44 / 90%)),url(img/Huge-Backgrounds-53.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.fa-window-close{
+    color: #fff;
 }
 .home_content {
     display: flex;
@@ -431,6 +438,7 @@ ul {
     -webkit-filter: drop-shadow(-3px 6px 5px #b2b2b8); */
     width: 95%;
     min-width: 39rem;
+    padding-bottom: 10px;
 }
 .home .right {
     z-index: 8878;
@@ -440,40 +448,51 @@ ul {
     font-weight: 100;
     font-size: 2.4rem;
     margin-bottom: -0.7rem;
+    color: #cccaca;
 }
 .home .right .home_txtdiv_right h1 {
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-size: 3.7rem;
-    color: #2b2a2a;
+    color: #e9e8ec;
     margin-bottom: 0.3rem;
     margin-top: 0.1rem;
     letter-spacing: 0.1rem;
 }
 .home .right .home_txtdiv_right .role {
     font-family: Roboto, sans-serif;
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     font-weight: 500;
-    color: #242323;
+    color: #b1afaf;
     margin-bottom: 0.8rem;
 }
 .home .right .home_txtdiv_right .home_note {
     font-family: "Titillium Web", sans-serif;
     font-size: 1.9rem;
-    color: #474040;
+    color: #ffffffc2;
     width: 57rem;
     letter-spacing: 0;
     line-height: 2.6rem;
     margin-top: 0.9rem;
 }
 .home_btn {
-    margin-top: 1rem;
+    margin-top: 1.7rem;
     margin-bottom: 1.5rem;
+}
+.home_btn .common_btn{
+    box-shadow: none;
+}
+#start_tour{
+    margin-right: 20px;
 }
 .about {
     background: #bcbdbd33;
     padding-top: 4rem;
     padding-bottom: 2rem;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .about .about_sec_header {
     text-align: center;
@@ -579,6 +598,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    overflow: hidden;
 }
 .services_filter {
     text-align: center;

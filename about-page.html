@@ -13,6 +13,28 @@
      <script src="https://kit.fontawesome.com/48257ee1fc.js" crossorigin="anonymous"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
+        @media(max-width:464px){
+            body{
+                background-color: rgb(223, 223, 223)
+            }
+            .name{
+                font-size: 95%!important;
+            }
+            .panel{
+                min-width: 250px;
+                font-size: 95%!important;
+                overflow: scroll;
+            }
+            .wrapper{
+                font-size: 90%!important;
+                overflow: hidden;
+            }
+            .accordion{
+                font-size: 95%!important;
+            }
+            
+            
+        }
         
         body{
             background-color: rgb(239, 239, 240);
@@ -33,7 +55,7 @@
             text-decoration: none;
             color: #0d9144;
         }
-        a:hover {
+        a:not(.to-top) {
             text-decoration: underline;
         }
         .common_btn {
@@ -69,6 +91,7 @@
             padding: 9px;
             background: rgba(255, 255, 255, 0.493);
             /* box-shadow: 5px 11px 15px 0px #808080b5; */
+            min-width: 300px;
         }
         .name{
             text-align: center;
@@ -102,13 +125,14 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            min-width: 280px;
         }
         .accordion::after{
             content: "\002B";
             float: right;
             font-size: 30px;
         }
-        .active, .accordion:hover {
+        .active:not(.to-top), .accordion:hover {
             background-color: #ccc;
         }
         .active:after {
@@ -118,7 +142,6 @@
             padding: 0 18px;
             background-color: rgb(243, 240, 240);
             max-height: 0;
-            overflow: scroll;
             min-width: 300px;
             transition: max-height 0.2s ease-out;
         }
