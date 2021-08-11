@@ -111,6 +111,8 @@
                     <a href="#skills" class="mobileMenulist" onclick="closeNave()">Skills</a>
                     <a href="#works" class="mobileMenulist" onclick="closeNave()">Works</a>  
                     <a href="#contact" class="mobileMenulist" onclick="closeNave()">Contact</a>
+                    <a href="about-page.html" class="mobileMenulist" onclick="closeNave()">More</a>
+
             </div>
            </div> 
            <div class="progress-container" id="myPContain">
@@ -185,80 +187,87 @@
             </div>
             <div class="common_wrapper">
                 <div class="services_content">
-                    <div class="services_filter">
+                    <!-- <div class="services_filter">
                         <button type="button" data-filter="all" title="Show all services">All</button>
                         <button type="button" data-filter=".Web-Development" title="Show Web related services">Web Development</button>
                         <button type="button" data-filter=".Graphics-Design" title="Show graphic design related services">Graphics Design</button>
                         <button type="button" data-filter=".Photography"  title="Show My Photography and edit related services">Photography</button>
+                    </div> -->
+                    <div class="services_filter tab">
+                        <button class="tablinks" onclick="openTab(event, 'all')" id="defaultOpen">All</button>
+                        <button class="tablinks" onclick="openTab(event, 'webDesign')">Web Design</button>
+                        <button class="tablinks" onclick="openTab(event, 'graphicDesign')">Graphic Design</button>
+                        <button class="tablinks" onclick="openTab(event, 'photography')">Photography</button>
                     </div>
-                    <div class="all_services services_container" style="overflow: hidden;">
-                        <div class="one_service mix Web-Development animateEliment">
-                            <div class="service_img_contain">
-                                <img src="resources/img/frontend2.svg" alt="">
-                            </div>
-                            <div class="service_detail_box">
-                                <h3>Frontend Design</h3>
-                            <p>I Design <span class="highlight_color_green">amazing</span> user interfaces. I mostly use <span class="highlight_color_green">H</span>tml, <span class="highlight_color_green">C</span>ss, and <span class="highlight_color_green">J</span>avascript. I also convert Psd, Xd, Ai to Html using Bootstrap </p>
-                            </div>
-                        </div>
-                        <div class="one_service mix Web-Development animateEliment">
-                            <div class="service_img_contain">
-                                <img src="resources/img/backend.svg" alt="">
-                            </div>
-                            <div class="service_detail_box">
-                                <h3>Backend Development</h3>
-                            <p> I am a backend web developer also. I use <span class="highlight_color_green">PHP</span> to make your website dynamic. As database and SQL I use <span class="highlight_color_green">Laravel and MySql</span>. Sometimes I aso use Django a web based framework of Python.  </p>
-                            </div>
-                        </div>
-                        <div class="one_service mix Web-Development animateEliment">
-                            <div class="service_img_contain">
-                                <img src="resources/img/graphic.svg" alt="">
-                            </div>
-                            <div class="service_detail_box">
-                                <h3>Psd-Xd-Ai-Figma to Html-Bootstrap</h3>
-                                <p>I worked in many project of <span class="highlight_color_green">PSD - HTML</span> conversion. I also serve Adobe Xd, Illustrator, figma to Html & bootstrap. And I do it with  responsibility.</p>
-                            </div>
-                        </div>
-                        <div class="one_service mix Web-Development animateEliment">
-                            <div class="service_img_contain">
-                                <img src="resources/img/responsive.svg" alt="">
-                            </div>
-                            <div class="service_detail_box">
-                                <h3>Responsive Design</h3>
-                                <p>I design websites with mobile responsiveness. I build device friendly user interfaces. This makes your website more good looking in all devices which increases the traffic also.</p>
-                            </div>
-                        </div>
-                        <div class="one_service mix Graphics-Design animateEliment">
-                            <div class="service_img_contain">
-                                <img src="resources/img/frontend.svg" alt="">
-                            </div>
-                            <div class="service_detail_box">
-                                <h3>Photoshop</h3>
-                                <p>Not only for psd-html conversion I also use <span class="highlight_color_green">Adobe Photoshop</span> for photo editing and illustrations.</p>
-                            </div>
-                            
-                        </div>
-                        <div class="one_service mix Graphics-Design animateEliment">
-                            <div class="service_img_contain">
-                                <img src="resources/img/SVG.svg" alt="">
-                            </div>
-                            <div class="service_detail_box">
-                                <h3>Scalable Vector Graphics (SVG)</h3>
-                                <p><span class="highlight_color_green">Scalable Vector Graphics (SVG) </span> is used mostly in websites. It is easy to make those graphics responsive.they are so durable also.I am a intermediate designer in the field of SVG's.</p>
-                            </div>
-                        </div>
-                        <div class="one_service mix Photography animateEliment">
-                            <div class="service_img_contain">
-                                <img src="resources/img/photoEdit.svg" alt="">
-                            </div>
-                            <div class="service_detail_box">
-                                <h3>Photo Editing</h3>
-                                <p>I occasionally edit photoes. I normally edit portrait photoes. I use <span class="highlight_color_green">Photoshop</span> & <span class="highlight_color_green">Adobe Lightroom</span> to edit photoes. You can visit some of my works in our photography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
-                                <div class="service_btn_contain">
-                                    <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                      <div class="all tabcontent" id="all">
+                          <div class="all_services">
+                            <div class="one_service mix Web-Development animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/frontend2.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Frontend Design</h3>
+                                <p>I Design <span class="highlight_color_green">amazing</span> user interfaces. I mostly use <span class="highlight_color_green">H</span>tml, <span class="highlight_color_green">C</span>ss, and <span class="highlight_color_green">J</span>avascript. I also convert Psd, Xd, Ai to Html using Bootstrap </p>
                                 </div>
                             </div>
-                        </div>
+                            <div class="one_service mix Web-Development animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/backend.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Backend Development</h3>
+                                <p> I am a backend web developer also. I use <span class="highlight_color_green">PHP</span> to make your website dynamic. As database and SQL I use <span class="highlight_color_green">Laravel and MySql</span>. Sometimes I aso use Django a web based framework of Python.  </p>
+                                </div>
+                            </div>
+                            <div class="one_service mix Web-Development animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/graphic.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Psd-Xd-Ai-Figma to Html-Bootstrap</h3>
+                                    <p>I worked in many project of <span class="highlight_color_green">PSD - HTML</span> conversion. I also serve Adobe Xd, Illustrator, figma to Html & bootstrap. And I do it with  responsibility.</p>
+                                </div>
+                            </div>
+                            <div class="one_service mix Web-Development animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/responsive.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Responsive Design</h3>
+                                    <p>I design websites with mobile responsiveness. I build device friendly user interfaces. This makes your website more good looking in all devices which increases the traffic also.</p>
+                                </div>
+                            </div>
+                            <div class="one_service mix Graphics-Design animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/frontend.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Photoshop</h3>
+                                    <p>Not only for psd-html conversion I also use <span class="highlight_color_green">Adobe Photoshop</span> for photo editing and illustrations.</p>
+                                </div>
+                                
+                            </div>
+                            <div class="one_service mix Graphics-Design animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/SVG.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Scalable Vector Graphics (SVG)</h3>
+                                    <p><span class="highlight_color_green">Scalable Vector Graphics (SVG) </span> is used mostly in websites. It is easy to make those graphics responsive.they are so durable also.I am a intermediate designer in the field of SVG's.</p>
+                                </div>
+                            </div>
+                            <div class="one_service mix Photography animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/photoEdit.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Photo Editing</h3>
+                                    <p>I occasionally edit photoes. I normally edit portrait photoes. I use <span class="highlight_color_green">Photoshop</span> & <span class="highlight_color_green">Adobe Lightroom</span> to edit photoes. You can visit some of my works in our photography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                    <div class="service_btn_contain">
+                                        <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                    </div>
+                                </div>
+                            </div>
                         <div class="one_service mix Photography animateEliment">
                             <div class="service_img_contain">
                                 <img src="resources/img/video.svg" alt="">
@@ -271,8 +280,100 @@
                                 </div>
                             </div>
                         </div>
-                    </div>    
-                </div>
+                       </div> 
+                      </div>
+                      <div class="webDesign tabcontent" id="webDesign">
+                          <div class="all_services">
+                            <div class="one_service mix Web-Development animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/frontend2.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Frontend Design</h3>
+                                <p>I Design <span class="highlight_color_green">amazing</span> user interfaces. I mostly use <span class="highlight_color_green">H</span>tml, <span class="highlight_color_green">C</span>ss, and <span class="highlight_color_green">J</span>avascript. I also convert Psd, Xd, Ai to Html using Bootstrap </p>
+                                </div>
+                            </div>
+                            <div class="one_service mix Web-Development animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/backend.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Backend Development</h3>
+                                <p> I am a backend web developer also. I use <span class="highlight_color_green">PHP</span> to make your website dynamic. As database and SQL I use <span class="highlight_color_green">Laravel and MySql</span>. Sometimes I aso use Django a web based framework of Python.  </p>
+                                </div>
+                            </div>
+                            <div class="one_service mix Web-Development animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/graphic.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Psd-Xd-Ai-Figma to Html-Bootstrap</h3>
+                                    <p>I worked in many project of <span class="highlight_color_green">PSD - HTML</span> conversion. I also serve Adobe Xd, Illustrator, figma to Html & bootstrap. And I do it with  responsibility.</p>
+                                </div>
+                            </div>
+                            <div class="one_service mix Web-Development animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/responsive.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Responsive Design</h3>
+                                    <p>I design websites with mobile responsiveness. I build device friendly user interfaces. This makes your website more good looking in all devices which increases the traffic also.</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="graphicDesign tabcontent" id="graphicDesign">
+                          <div class="all_services">
+                           <div class="one_service mix Graphics-Design animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/frontend.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Photoshop</h3>
+                                    <p>Not only for psd-html conversion I also use <span class="highlight_color_green">Adobe Photoshop</span> for photo editing and illustrations.</p>
+                                </div>
+                                
+                            </div>
+                            <div class="one_service mix Graphics-Design animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/SVG.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Scalable Vector Graphics (SVG)</h3>
+                                    <p><span class="highlight_color_green">Scalable Vector Graphics (SVG) </span> is used mostly in websites. It is easy to make those graphics responsive.they are so durable also.I am a intermediate designer in the field of SVG's.</p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="photography tabcontent" id="photography">
+                        <div class="all_services">
+                            <div class="one_service mix Photography animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/photoEdit.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Photo Editing</h3>
+                                    <p>I occasionally edit photoes. I normally edit portrait photoes. I use <span class="highlight_color_green">Photoshop</span> & <span class="highlight_color_green">Adobe Lightroom</span> to edit photoes. You can visit some of my works in our photography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                    <div class="service_btn_contain">
+                                        <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="one_service mix Photography animateEliment">
+                                <div class="service_img_contain">
+                                    <img src="resources/img/video.svg" alt="">
+                                </div>
+                                <div class="service_detail_box">
+                                    <h3>Video Editing</h3>
+                                    <p>I occasionally edit Videos. I use <span class="highlight_color_green">Filmora X</span> & <span class="highlight_color_green">DaVinci Resolve 16</span> to edit Videos. You can visit some of my works in our photography & Videography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                    <div class="service_btn_contain">
+                                        <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
             </div>
         </section>
         <section class="skills_sec" id="skills">
@@ -555,7 +656,7 @@
                 </div>
             </div>
             <!-- ABOUT THIS site  -->
-            <div class="abouPage">
+            <div class="abouPage animate__animated animate__flash animate__slower animate__infinite">
                 <div class="myTxt" style="font-size: 1.7rem;color: #ccc9c9;text-align: center;padding-bottom: 26px;"><a href="about-page.html">ABOUT THIS WEBSITE</a></div>
             </div>
             <!-- COPYRIGHT TEXT -->
@@ -576,7 +677,6 @@
     <script src="resources/js/index.min.js"></script>
     <script src="resources/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/typed.min.js"></script>
-    <script src="resources/js/mixitup.min.js"></script>
     <script src="resources/js/owl.carousel.min.js"></script>
     <script>
         var typed3 = new Typed('.typing', {
