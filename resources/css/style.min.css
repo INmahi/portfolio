@@ -83,7 +83,7 @@ ul {
     font-size: 32px;
     width: 41px;
     height: 40px;
-    box-shadow: 1px 4px 7px 1px #549273ab;
+    box-shadow: 1px 4px 7px 1px #5e6863ab;
 }
 .to-top:hover {
     box-shadow: 0 6px 12px 0 grey;
@@ -768,7 +768,7 @@ ul {
 .social_icon_wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 4rem;
     margin-bottom: 4rem;
     flex-wrap: wrap;
@@ -907,7 +907,7 @@ footer {
     padding-top: 5rem;
 }
 .footer_links {
-    width: 31%;
+    /* width: 31%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
