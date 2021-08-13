@@ -18,3 +18,8 @@ This is Ishat Noor Mahi's Portfolio
                                         MY WEBSITE : see the footer section.
                                         Github profile : https://github.com/INmahi
 
+
+Website link  ==>
+    github pages : https://inmahi.github.io/portfolio/
+    netlify      : mahi01.netlify.app
+
