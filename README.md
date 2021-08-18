@@ -1,25 +1,40 @@
 
+## "Mahi's Portfolio"
+## Table of content
 
-"# portfolio" 
-This is Ishat Noor Mahi's Portfolio
+-[About](#about)
+-[Links](#links)
+-[Contact](#contact)
+-[Source-code](#source-code)
 
 
+## about
+
+1. This is Ishat Noor Mahi's Portfolio.
+2. author -- Ishat Noor Mahi
+3. Bangladesh
 --all righths reserved to mahi. 2021 .
 
-    https://www.facebook.com/ishat.noor.mahi/
 
-    https://www.instagram.com/ishat_noor_mahi/
+## links
+# Website links
 
-    https://twitter.com/ishatmahi
-
-/======= NOTE =======/
-
- YOU CAN DOWNLOAD ALL THE SOURCE CODES FROM :
-                                        MY WEBSITE : see the footer section.
-                                        Github profile : https://github.com/INmahi
-
-
-Website link  ==>
     github pages : https://inmahi.github.io/portfolio/
     netlify      : mahi01.netlify.app
 
+
+## Contact
+
+-[Facebook]  (https://www.facebook.com/ishat.noor.mahi/)
+
+-[Instagram] (https://www.instagram.com/ishat_noor_mahi/)
+
+-[twitter]   (https://twitter.com/ishatmahi)
+ 
+
+
+## Source-code
+
+YOU CAN DOWNLOAD ALL THE SOURCE CODES FROM :
+                                        MY WEBSITE : see the footer section.
+                                        Github profile : https://github.com/INmahi
