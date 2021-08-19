@@ -8,6 +8,9 @@
         .owl-carousel .owl-item img {
         width: 35%!important;
     }
+    .menu_iconBox {
+        display: none;
+    }
     .owl-carousel .owl-item:nth-child(6) img {
         width: 20%!important;
     }
@@ -32,12 +35,18 @@
     .desc_for_smDevices {
         display: none;
     }
+    .menu_iconBox {
+        display: none;
+    }
     }@media(max-width:991px) {
         .desc_for_lgDevices {
         display: none;
     }
     .desc_for_smDevices {
         display: block;
+    }
+    .menu_iconBox {
+        display: none;
     }
     }@media(max-width:767px) {
         html {
@@ -94,6 +103,9 @@
         top: 56%;
         left: 45%;
         opacity: 1;
+    }
+    .sticky{
+        height: 36.5px;
     }
     .sticky .sticky_logo img {
         width: 98%;
@@ -166,11 +178,11 @@
         background: #0d509c;
     }
     .sticky .logo_div {
-        display: block;
-    }
-    .sticky .sticky_logo {
         display: none;
     }
+    /* .sticky .sticky_logo {
+        display: none;
+    } */
     .sticky_logo {
         display: none;
     }

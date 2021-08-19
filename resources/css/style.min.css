@@ -248,7 +248,7 @@ ul {
     width: 100%;
     z-index: 7654345678;
     background: rgb(26 32 44 / 96%)!important;
-    height: 35.5px;
+    height: 51.5px;
     overflow: hidden;
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
@@ -328,7 +328,7 @@ ul {
 }
 .manubar ul li {
     margin-left: 1.3rem;
-    width: 6.5rem;
+    width: 6.9rem;
     text-align: center;
     padding: 0.5rem;
     border-radius: 0.3rem;
@@ -422,12 +422,12 @@ ul {
     margin-right: 5px;
     cursor: pointer;
 }
-.manubar {
+/* .manubar {
     display: block;
-}
-.menu_iconBox {
+} */
+/* .menu_iconBox {
     display: none;
-}
+} */
 .navigation, .home {
     background-image: linear-gradient(to left,rgb(26 32 44 / 80%),rgb(26 32 44 / 90%)),url(img/Huge-Backgrounds-53.jpg);
     background-repeat: no-repeat;
@@ -445,7 +445,7 @@ ul {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .home .left {
     width: 50%;
@@ -836,6 +836,12 @@ ul {
 .work .owl-theme .owl-dots .owl-dot.active span {
     background: #535252 !important;
 }
+.getInTouch {
+    background-image: linear-gradient(#c2993869, #c2993870),url(/resources/css/img/Huge-Backgrounds-53.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
 .social_icon_wrapper {
     display: flex;
     align-items: center;
@@ -1114,7 +1120,7 @@ footer {
     background: transparent;
   }
   
-  .progress-bar {
+  .progress-barU {
     height: 5px;
     background: #04AA6D;
     width: 0%;

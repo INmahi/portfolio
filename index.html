@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahi | Web Developer</title>
     <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="stylesheet" href="resources/css/style.min.css">
     <link rel="stylesheet" href="resources/css/responsive.min.css">
     <link rel="stylesheet" href="resources/css/progressbar/style.css">
-    <link rel="stylesheet" href="resources/css/vendor/node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="resources/css/vendor/animate.min.css">
     <!-- OWL CAROUSEL -->
     <link rel="stylesheet" href="resources/css/owl.carousel.min.css">
     <link rel="stylesheet" href="resources/css/owl.theme.default.min.css">
@@ -117,7 +118,7 @@
             </div>
            </div> 
            <div class="progress-container" id="myPContain">
-            <div class="progress-bar" id="myBar"></div>
+            <div class="progress-barU" id="myBar"></div>
           </div> 
         </div>
         <section class="home mhStyleDiv" id="home">
@@ -195,8 +196,8 @@
                         <button type="button" data-filter=".Photography"  title="Show My Photography and edit related services">Photography</button>
                     </div> -->
                     <div class="services_filter tab">
-                        <button class="tablinks" onclick="openTab(event, 'all')" id="defaultOpen">All</button>
-                        <button class="tablinks" onclick="openTab(event, 'webDesign')">Web Design</button>
+                        <button class="tablinks" onclick="openTab(event, 'all')">All</button>
+                        <button class="tablinks" onclick="openTab(event, 'webDesign')" id="defaultOpen">Web Design</button>
                         <button class="tablinks" onclick="openTab(event, 'graphicDesign')">Graphic Design</button>
                         <button class="tablinks" onclick="openTab(event, 'photography')">Photography</button>
                     </div>
@@ -571,35 +572,31 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.211155518934!2d90.42446434955205!3d24.719630056899618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564f8d52440287%3A0xfcebfe71fc354e6c!2sBangladesh%20Agricultural%20University%20(BAU)!5e0!3m2!1sen!2sbd!4v1624444901111!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
-        <section class="contact" id="contact" style="padding-top: 5rem;padding-bottom: 2rem;">
-            <div class="contact_header" style="display: block;text-align: center;">
-                <h2 style="font-size: 2.7rem;">Contact Me</h2>
-            </div>
-            <div class="common_wrapper">
-            <div class="contact_content">
-                <div class="contact_social">
-                    <div style="text-align: center;padding-top: 1rem;font-size: 1.8rem;">
-                        <h3 >Find Me on Social Media</h3>
-                    </div>
-                    <div class="social_icon_wrapper">
-                        <div class="fb">
-                            <i class="fab fa-facebook-square"></i>
-                            <p class="contact_icon_desc"><a href="https://www.facebook.com/ishat.noor.mahi/" style="color: #333;">Ishat Noor Mahi</a></p>
-                        </div>
-                        <div class="mssngr">
-                            <i class="fab fa-facebook-messenger"></i>
-                            <p class="contact_icon_desc"><a href="http://m.me/ishat.noor.mahi" style="color: #333;">Ishat Noor Mahi</a></p>
-                        </div>
-                        <div class="ig">
-                            <i class="fab fa-instagram-square"></i>
-                            <p class="contact_icon_desc"><a href="https://www.instagram.com/ishat_noor_mahi/" style="color: #333;">ishat_noor_mahi</a></p>
-                        </div>
-                        <div class="tw">
-                            <i class="fab fa-twitter-square"></i>
-                            <p class="contact_icon_desc"><a href="https://twitter.com/IshatMahi" style="color: #333;">IshatMahi</a></p>
+        <section class="bg-primary getInTouch p-5">
+            <div class="container">
+                <div class="common_wrapper">
+                    <div class="GetInTouch_content">
+                        <div class="gg text-center">
+                            <h3 class="text-center text-light h2 mt-4">Are You Ready To Get Started?</h3>
+                            <div class="input-group mb-3 mt-5 news_input mx-auto">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-open" aria-hidden="true"></i></span>
+                                <input type="text" class="form-control w-50" placeholder="Subscribe to newsletter" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-danger" type="button" id="button-addon2">Subscribe</button>
+                              </div>
+                              <button class="btn btn-success btn-lg my-5"> <a href="https://www.fiverr.com/ishat_noor_mahi?up_rollout=true" class="text-light">Hire Me</a></button>
                         </div>
                     </div>
                 </div>
+            </div>
+            
+        </section>
+        <section class="contact" id="contact" style="padding-top: 5rem;padding-bottom: 2rem;">
+            <div class="contact_header" style="display: block;text-align: center;">
+                <h2 style="font-size: 2.7rem;" class="my-4">Contact Me</h2>
+            </div>
+            <div class="common_wrapper">
+            <div class="contact_content">
+                
                 <div class="contact_fiverr">
                     <div style="text-align: center;">
                         <h3 style="font-size: 1.9rem;margin-bottom: 20px;">I Am On Fiverr</h3>

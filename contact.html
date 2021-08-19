@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Mahi</title>
     <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
-    <link rel="stylesheet" href="resources/css/vendor/node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="resources/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="stylesheet" href="/resources/css/cmn.css">
     <link rel="stylesheet" href="/resources/css/responsive.min.css">
     <link rel="stylesheet" href="/resources/css/style.min.css">
@@ -110,9 +111,54 @@
     </section>
 
 
+    <section class="contact track-2nd-section">
+        <div class="contact_social">
+            <div style="text-align: center;padding-top: 1rem;font-size: 1.8rem;">
+                <h3 class="my-3">Find Me on Social Media</h3>
+            </div>
+            <div class="social_icon_wrapper">
+                <div class="fb">
+                    <i class="fab fa-facebook-square"></i>
+                    <p class="contact_icon_desc"><a href="https://www.facebook.com/ishat.noor.mahi/" style="color: #333;">Ishat Noor Mahi</a></p>
+                </div>
+                <div class="mssngr">
+                    <i class="fab fa-facebook-messenger"></i>
+                    <p class="contact_icon_desc"><a href="http://m.me/ishat.noor.mahi" style="color: #333;">Ishat Noor Mahi</a></p>
+                </div>
+                <div class="ig">
+                    <i class="fab fa-instagram-square"></i>
+                    <p class="contact_icon_desc"><a href="https://www.instagram.com/ishat_noor_mahi/" style="color: #333;">ishat_noor_mahi</a></p>
+                </div>
+                <div class="tw">
+                    <i class="fab fa-twitter-square"></i>
+                    <p class="contact_icon_desc"><a href="https://twitter.com/IshatMahi" style="color: #333;">IshatMahi</a></p>
+                </div>
+            </div>
+            <div class="common_wrapper">
+                <div class="contact_mssg">
+                    <form action="https://formspree.io/ishatnoormahi787@gmail.com" target="blank" method="post">
+                        <div class="twoInput">
+                            <input type="text" placeholder="Your Name *" name="Name">
+                            <input type="email" placeholder="Your Email *" required name="email">
+                        </div>
+                        <div class="oneInput">
+                            <textarea name="Message"  cols="30" rows="10" placeholder="Your Message *" required></textarea>
+                        </div>
+                        <div class="submit_mssg pb-3">
+                            <input type="submit" value="SEND MESSAGE" class="common_btn btn btn-submit" title="This Page Uses A THIRD PARTY SERVICE To Make This Form Work." style="text-align: center; font-size: 1.5rem;">
+                        </div>
+                    </form>
+                </div> 
+            </div>
+        </div>
+    </section>
 
-
-
+    <section class="bg-dark text-light p-5 text-center">
+        <h1 class="text-light py-5">Get Started</h1>
+        <p class="lead">Hire me on fiverr and get exclusive packages.
+        </p>
+        <button class="btn btn-lg btn-danger my-5">Hire ME</button>
+    </section>
 
     <footer class="track-footer" id="mahi01Footer">
         <div class="footer_part1">
@@ -156,6 +202,7 @@
 <div class="online_status">
     <div id="snackbar">You are <span id="status"></span></div> <!--online/offline detect-->
 </div>
+<script src="resources/js/jquery.waypoints.min.js"></script>
 <script src="/resources/js/cmn.js"></script>
 </body>
 </html>
