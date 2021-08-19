@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mahi</title>
+    <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="resources/css/vendor/node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="/resources/css/cmn.css">
+    <link rel="stylesheet" href="/resources/css/responsive.min.css">
+    <link rel="stylesheet" href="/resources/css/style.min.css">
+    <!--font family :poppins, roboto, titillium web, Dawing of new day-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400;1,600&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+     <!-- font awsome cdn -->
+     <script src="https://kit.fontawesome.com/48257ee1fc.js" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="navigation" id="get_nav">
+            <div class="common_wrapper">     
+                <div class="navbar_content_wrapper">
+                    <div class="logo_div">
+                        <img src="/resources/img/5.png" alt="MAHI" class="logo">
+                        <!-- <h3 class="logo_txt_h3">Portfo<span class="highlight_color" id="spcecial_hglgt">lio<span class="bullet">.</span>
+                        </span></h3> -->
+                    </div>
+                    <div class="sticky_logo">
+                        <a href="#home">
+                            <img src="resources/img/5.png" class="stklogo" alt="MAHI">
+                        </a>
+                    </div>
+                    <div class="manubar">
+                        <ul>
+                            <li>
+                                <a href="/index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="/index.html#about">About</a>
+                            </li>
+                            <li>
+                                <a href="/services.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="/blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="/index.html#works">Works</a>
+                            </li>
+                            <li class="active">
+                                <a href="/contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a href="about-page.html">More</a>
+                            </li>
+                        </ul>
+                    </div>
+                   <!-- MENU BUTTON : SHOWS IN SMALL DEVICES ; -->
+                   <div class="menu_iconBox" id="mobileBars">
+                    <i class="fas fa-bars" style="color: #fff;"></i>
+                   </div>
+                </div>    
+            </div>
+            <!-- MOBILE MENU : SHOWS IN TABLETS AND MOBILES  --> 
+            <div class="overlay_mobile_menu" id="getMenuOverlay">
+                <div class="overlay_close">
+                    <button type="button" id="closeMenuBtn" onclick="closeNave()">
+                        <i class="far fa-window-close"></i>
+                    </button>
+                </div>
+                <div class="mobile_menu">
+                    <a href="/index.html" class="mobileMenulist" onclick="closeNave()">Home</a> 
+                    <a href="#about" class="mobileMenulist" onclick="closeNave()">About</a>
+                    <a href="/services.html" class="mobileMenulist" onclick="closeNave()">Services</a>
+                    <a href="/blog.html" class="mobileMenulist" onclick="closeNave()">Blog</a>
+                    <a href="#works" class="mobileMenulist" onclick="closeNave()">Works</a>  
+                    <a href="/contact.html" class="mobileMenulist" onclick="closeNave()">Contact</a>
+                    <a href="about-page.html" class="mobileMenulist" onclick="closeNave()">More</a>
+
+            </div>
+           </div> 
+           <div class="progress-container" id="myPContain">
+            <div class="progress-bar" id="myBar"></div>
+          </div> 
+        </div>
+    <section class="home mhStyleDiv" id="home">
+            <div class="common_wrapper">
+                <div class="home_content">
+                    <div class="left animate__animated animate__fadeInLeft">       
+                        <img src="resources/img/homeimg/mainhomeimg.svg" alt=""  id="totop">
+                    </div>
+                    <div class="right animate__animated animate__fadeInRight">
+                        <div class="home_txtdiv_right">
+                            <h2><span class="highlight_color">HI</span> There, I'm</h2>
+                            <h1>Ishat Noor Mahi</h1>
+                            <p class="role"><span class="typing"></span></p>
+                            <p class="home_note">
+                                This is my personal <span class="highlight_color">Portfolio</span> Website. I designed this website from scratch. As an intermidiate web developer I tried my best to make this website responsive and interactive. Please take a tour in my website. 
+                            </p>
+                        </div>
+                        <div class="home_btn">
+                            <button class="common_btn" id="start_tour"><a href="#about" style="color: #dcdcdc; text-decoration: none;">Start Tour</a></button>
+                            <button class="common_btn" id="video_tour_btn"> <a href="https://www.youtube.com/watch?v=EwfxTkV4QU8" style="color: #fff;">Video Tour</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+
+
+
+
+
+    <footer class="track-footer" id="mahi01Footer">
+        <div class="footer_part1">
+            <div class="footer_links">
+                <a href="https://www.facebook.com/ishat.noor.mahi/"><i class="fab fa-facebook-square footfb"></i></a>
+                <a href="https://www.youtube.com/channel/UCTlPCzHe1c8oS7Y3makQygg"><i class="fab fa-youtube footyt"></i></a>
+                <a href="http://m.me/ishat.noor.mahi"><i class="fab fa-facebook-messenger footmssngr"></i></a>
+                <a href="https://www.instagram.com/ishat_noor_mahi/"><i class="fab fa-instagram-square footig"></i></a>
+                <a href="https://twitter.com/IshatMahi"><i class="fab fa-twitter-square foottwt"></i></a>
+                <a href="https://github.com/INmahi"><i class="fab fa-github-square footgithub"></i></a>
+                <a href="https://gmail.com" title="ishatnoormahi787@gmail.com"><i class="fas fa-envelope footgithub" style="font-size: 3rem;color: #EA4335;margin-left: 0.7rem;"></i></a>
+            </div>
+        </div>
+        <div class="footer_part2">
+            <div class="text_footer">
+                <a href="javascript:void(0);">Privacy</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);">Need Help?</a>
+                <a href="javascript:void(0);">Content</a>
+                <a href="https://github.com/INmahi/portfolio">Source Code</a>
+                <a href="https://github.com/INmahi">Github</a>
+                <a href="#contact">Feedback</a>
+            </div>
+        </div>
+        <!-- ABOUT THIS site  -->
+        <div class="abouPage" id="aboutWeb">
+            <div class="myTxt" style="font-size: 1.7rem;color: #ccc9c9;text-align: center;padding-bottom: 26px;"><a href="about-page.html">ABOUT THIS WEBSITE</a></div>
+        </div>
+        <!-- COPYRIGHT TEXT -->
+        <div class="copy">
+            <div class="copytxt">&copy; Ishat Noor Mahi | 2021 | all rights reserved.</div>
+        </div>
+    </footer>
+    <!-- SCROLL BACK TO TOP BUTTON -->
+    <a href="#totop" class="to-top" title="Scroll Back to Top">
+        <i class="fas fa-chevron-up" aria-hidden="true" style="
+        position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);"></i>
+    </a>
+</div>
+<!-- CHECK NETWORK STATUS AND SHOW SNACKBAR -->
+<div class="online_status">
+    <div id="snackbar">You are <span id="status"></span></div> <!--online/offline detect-->
+</div>
+<script src="/resources/js/cmn.js"></script>
+</body>
+</html>

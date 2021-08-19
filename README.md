@@ -36,5 +36,6 @@
 ## Source-code
 
 YOU CAN DOWNLOAD ALL THE SOURCE CODES FROM :
-                                        MY WEBSITE : see the footer section.
-                                        Github profile : https://github.com/INmahi
+
+MY WEBSITE : see the footer section.
+Github profile : https://github.com/INmahi

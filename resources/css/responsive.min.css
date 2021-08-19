@@ -96,7 +96,7 @@
         opacity: 1;
     }
     .sticky .sticky_logo img {
-        width: 77%;
+        width: 98%;
         margin-top: 5px;
         min-width: 7rem;
     }
@@ -151,6 +151,10 @@
         font-size: 1.8rem;
         width: 95%!important;
     }
+    /* .logo_div{
+        align-items: flex-start;
+        width: 155px;
+    } */
     .logo_div h3 {
         color: #d4cece;
         position: relative;
