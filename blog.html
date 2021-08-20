@@ -20,6 +20,33 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "102181418625800");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div class="navigation" id="get_nav">
             <div class="common_wrapper">     
                 <div class="navbar_content_wrapper">
@@ -179,10 +206,10 @@
         </div>
     </footer>
     <!-- SCROLL BACK TO TOP BUTTON -->
-    <a href="#totop" class="to-top" title="Scroll Back to Top">
+    <!-- <a href="#totop" class="to-top" title="Scroll Back to Top">
         <i class="fas fa-chevron-up" aria-hidden="true" style="
         position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);"></i>
-    </a>
+    </a> -->
 </div>
 <!-- CHECK NETWORK STATUS AND SHOW SNACKBAR -->
 <div class="online_status">
