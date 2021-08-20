@@ -1,0 +1,16 @@
+.row{
+    border-bottom: 1px solid #c299384d;
+}
+html{
+    font-size: 70%!important;
+}
+.weeding-img{
+    width: 78%!important;
+}
+.hire-sec{
+    background-image: linear-gradient(to left,rgb(26 32 44 / 80%),rgb(26 32 44 / 90%)),url(/resources/css/img/Huge-Backgrounds-53.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

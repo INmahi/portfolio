@@ -1064,7 +1064,7 @@ footer {
 #snackbar {
     visibility: hidden;
     min-width: 180px;
-    margin-left: -125px;
+    margin-left: -100px;
     /* background-color: #d9534f; */
     color: #fff;
     text-align: center;
