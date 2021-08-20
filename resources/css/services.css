@@ -1,6 +1,9 @@
 .bi-check-all{
     font-size: 22px!important;
 }
+.serv{
+    overflow: hidden!important;
+}
 .servBtn:hover{
     background:#1847ad!important;
 }

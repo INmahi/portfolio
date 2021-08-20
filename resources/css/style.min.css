@@ -248,7 +248,7 @@ ul {
     width: 100%;
     z-index: 7654345678;
     background: rgb(26 32 44 / 96%)!important;
-    height: 51.5px;
+    height: 63px;
     overflow: hidden;
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
@@ -265,16 +265,16 @@ ul {
 }
 .sticky .sticky_logo {
     display: flex;
-    width: 23rem;
-    height: 30px;
+    /* width: 34rem; */
+    height: 56px;
     overflow: hidden;
     align-items: center;
 }
 .sticky .sticky_logo img {
-    width: 100%;
-    height: 100px;
+    width: 108%;
+    height: 124px;
     margin-top: 8px;
-    max-width: 10rem;
+    max-width: 20rem;
 }
 .manubar ul {
     display: flex;
@@ -445,7 +445,7 @@ ul {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .home .left {
     width: 50%;
@@ -1040,6 +1040,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .text_footer a {
     color: #999;

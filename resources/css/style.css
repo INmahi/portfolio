@@ -1,6 +1,13 @@
 .input-group {
   width: 50% !important;
 }
+.accordion-body {
+  padding: 2rem 1.25rem!important;
+}
+.accordion-button {
+  padding: 1.5rem 1.25rem!important;
+
+}
 
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
