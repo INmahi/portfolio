@@ -106,7 +106,7 @@
         opacity: 1;
     }
     .sticky{
-        height: 36.5px;
+        height: 63.5px;
     }
     .sticky .sticky_logo img {
         width: 98%;
@@ -259,13 +259,17 @@
         margin-left: 0;
     }
     .to-top {
-        width: 25px;
-        height: 25px;
+        width: 32px;
+        height: 31px;
         border-radius: 20%;
-        -webkit-border-radius: 20%;
-
+        -webkit-border-radius: 10%;
     }
     .contact_icon_desc{
         display: none;
+    }
+    .services_filter button {
+      
+        width: 22.5rem;
+        height: 75px;
     }
 }   
