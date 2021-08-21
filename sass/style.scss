@@ -5,6 +5,9 @@ $primary: #c29938ef;
 .accordion-body {
     padding: 2rem 1.25rem!important;
 }
-
+.accordion-button {
+    padding: 1.5rem 1.25rem!important;
+  }
+  
 //import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap"
