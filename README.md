@@ -25,12 +25,13 @@
 
 ## Contact
 
--[Facebook]  (https://www.facebook.com/ishat.noor.mahi/)
+- [Facebook]  (https://www.facebook.com/ishat.noor.mahi/)
 
--[Instagram] (https://www.instagram.com/ishat_noor_mahi/)
+- [Instagram] (https://www.instagram.com/ishat_noor_mahi/)
 
--[twitter]   (https://twitter.com/ishatmahi)
- 
+- [twitter]   (https://twitter.com/ishatmahi)
+# Contributors
+![Your Repository's Stats](https://contrib.rocks/image?repo=inmahi/portfolio)
 
 
 ## Source-code
@@ -39,3 +40,5 @@ YOU CAN DOWNLOAD ALL THE SOURCE CODES FROM :
 
 MY WEBSITE : see the footer section.
 Github profile : https://github.com/INmahi
+
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/INmahi/portfolio?style=social">  <img alt="GitHub forks" src="https://img.shields.io/github/forks/inmahi/portfolio?style=social">    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/inmahi/portfolio">
