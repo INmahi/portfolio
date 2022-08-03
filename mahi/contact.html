@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs | Mahi</title>
-    <link rel="shortcut icon" href="resources/img/icons8-male-user-64.png" type="image/x-icon">
+    <title>Contact | Mahi</title>
+    <link rel="shortcut icon" href="/resources/img/icons8-male-user-64.png" type="image/x-icon">
     <link rel="stylesheet" href="/resources/css/vendor/animate.min.css">
     <link rel="stylesheet" href="/resources/css/style.css">
-    <link rel="stylesheet" href="/resources/css/blog.css">
     <link rel="stylesheet" href="/resources/css/cmn.css">
     <link rel="stylesheet" href="/resources/css/responsive.min.css">
     <link rel="stylesheet" href="/resources/css/style.min.css">
@@ -20,33 +19,6 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat"> 
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "102181418625800");
-      chatbox.setAttribute("attribution", "biz_inbox");
-
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v11.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
     <div class="navigation" id="get_nav">
             <div class="common_wrapper">     
                 <div class="navbar_content_wrapper">
@@ -71,13 +43,13 @@
                             <li>
                                 <a href="/services.html">Services</a>
                             </li>
-                            <li class="active">
+                            <li>
                                 <a href="/blog.html">Blog</a>
                             </li>
                             <li>
                                 <a href="/index.html#works">Works</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="/contact.html">Contact</a>
                             </li>
                             <li>
@@ -138,40 +110,55 @@
         
     </section>
 
-<section class="p-5 bg-light track-2nd-section">
-    <div class="container">
-        <div class="row mx-auto mb-5 py-4">
-            <div class="col-md-5 text-center">
-                <img src="/resources/img/webd.jpg" alt="Web Design" class="img-thumbnail image-fluid my-4">
+
+    <section class="contact track-2nd-section">
+        <div class="contact_social">
+            <div style="text-align: center;padding-top: 1rem;font-size: 1.8rem;">
+                <h3 class="my-3">Find Me on Social Media</h3>
             </div>
-            <div class="col-md-7">
-                <h2 class="">Frontend Development: The Begginnig</h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci unde ad, ipsum inventore nesciunt.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias explicabo omnis sequi hic officia consequatur quisquam asperiores quos optio laboriosam. Nisi minus commodi nam excepturi dolorum? Natus sit, illo quasi consequuntur ullam similique amet! Ipsum quia illum sunt quibusdam. Mollitia ab id perspiciatis, voluptatum eligendi temporibus quisquam facere quia. . .</p>
-                <button class="btn btn-lg btn-primary py-2 my-4"><a href="/resources/blogs/webd/webdesign.html" class="text-light">Read More</a></button>
+            <div class="social_icon_wrapper">
+                <div class="fb">
+                    <i class="fab fa-facebook-square"></i>
+                    <p class="contact_icon_desc"><a href="https://www.facebook.com/ishat.noor.mahi/" style="color: #333;">Ishat Noor Mahi</a></p>
+                </div>
+                <div class="mssngr">
+                    <i class="fab fa-facebook-messenger"></i>
+                    <p class="contact_icon_desc"><a href="http://m.me/ishat.noor.mahi" style="color: #333;">Ishat Noor Mahi</a></p>
+                </div>
+                <div class="ig">
+                    <i class="fab fa-instagram-square"></i>
+                    <p class="contact_icon_desc"><a href="https://www.instagram.com/ishat_noor_mahi/" style="color: #333;">ishat_noor_mahi</a></p>
+                </div>
+                <div class="tw">
+                    <i class="fab fa-twitter-square"></i>
+                    <p class="contact_icon_desc"><a href="https://twitter.com/IshatMahi" style="color: #333;">IshatMahi</a></p>
+                </div>
+            </div>
+            <div class="common_wrapper">
+                <div class="contact_mssg">
+                    <form action="https://formspree.io/ishatnoormahi787@gmail.com" target="blank" method="post">
+                        <div class="twoInput">
+                            <input type="text" placeholder="Your Name *" name="Name">
+                            <input type="email" placeholder="Your Email *" required name="email">
+                        </div>
+                        <div class="oneInput">
+                            <textarea name="Message"  cols="30" rows="10" placeholder="Your Message *" required></textarea>
+                        </div>
+                        <div class="submit_mssg pb-3">
+                            <input type="submit" value="SEND MESSAGE" class="common_btn btn btn-submit" title="This Page Uses A THIRD PARTY SERVICE To Make This Form Work." style="text-align: center; font-size: 1.5rem;">
+                        </div>
+                    </form>
+                </div> 
             </div>
         </div>
-        <div class="row mx-auto py-4">
-            <div class="col-md-5 text-center">
-                <img src="/resources/img/weeding.jpg" alt="Weeding Photography" class="img-thumbnail image-fluid my-4 weeding-img">
-            </div>
-            <div class="col-md-7">
-                <h2 class="">All about Weeding Photography</h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci unde ad, ipsum inventore nesciunt.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias explicabo omnis sequi hic officia consequatur quisquam asperiores quos optio laboriosam. Nisi minus commodi nam excepturi dolorum? Natus sit, illo quasi consequuntur ullam similique amet! Ipsum quia illum sunt quibusdam. Mollitia ab id perspiciatis, voluptatum eligendi temporibus quisquam facere quia. . .</p>
-                <button class="btn btn-lg btn-primary py-2 my-4"><a href="/resources/blogs/weedingPh/weedingph.html" class="text-light">Read More</a></button>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="hire-sec text-light p-5 text-center">
-    <h1 class="text-light py-5">Get Started</h1>
-    <p class="lead">Hire me on fiverr and get exclusive packages.
-    </p>
-    <button class="btn btn-lg btn-danger my-5">Hire ME</button>
-</section>
+    </section>
 
-
+    <section class="bg-dark text-light p-5 text-center">
+        <h1 class="text-light py-5">Get Started</h1>
+        <p class="lead">Hire me on fiverr and get exclusive packages.
+        </p>
+        <button class="btn btn-lg btn-danger my-5">Hire ME</button>
+    </section>
 
     <footer class="track-footer" id="mahi01Footer">
         <div class="footer_part1">
@@ -206,16 +193,15 @@
         </div>
     </footer>
     <!-- SCROLL BACK TO TOP BUTTON -->
-    <!-- <a href="#totop" class="to-top" title="Scroll Back to Top">
+    <a href="#totop" class="to-top" title="Scroll Back to Top">
         <i class="fas fa-chevron-up" aria-hidden="true" style="
         position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);"></i>
-    </a> -->
+    </a>
 </div>
 <!-- CHECK NETWORK STATUS AND SHOW SNACKBAR -->
 <div class="online_status">
     <div id="snackbar">You are <span id="status"></span></div> <!--online/offline detect-->
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <script src="resources/js/jquery.waypoints.min.js"></script>
 <script src="/resources/js/cmn.js"></script>
 </body>

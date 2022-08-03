@@ -23,666 +23,867 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 </head>
-<body onload="runPreloader()">
+<body onload="runmodal()">
 
     <!-- preloader
          <div id="loading"></div> 
         -->
-    <div class="popup_box" id="popup">
-       <div class="popup_content">   
-            <div class="img_box">
-                <img src="resources/img/undraw_Personal_opinions_re_qw29.svg" alt="">
-            </div>
-            <div class="main_content">
-                <h3 class="popup_welcome">Hey There !!</h3>
-                <p class="welcome_text">
-                    <span class="highlight_color" style="font-weight: 500;">Thank you</span> for visiting my website.
-                </p>
-                <p class="popup_notice">
-                    This is a new Website and I am still Working on it. It is not 100% Responsive for all device width. So, it might not be <span class="highlight_color">compatible</span> with your device or browser. 
-                    If you notice any <span class="highlight_color">Problem with the <a href="https://en.wikipedia.org/wiki/Responsive_web_design" class="highlight_color">Responsiveness</a></span> of the website, Please let me know.  
-                
-                </p>
-                <p class="signature">Ishat.n.Mahi</p>
-                <ul>
-                    <li><a href="https://www.instagram.com/ishat_noor_mahi/" class="" style="color:#009900 ;">DM</a> me on Instagram</li>
-                    <li><a href="http://m.me/ishat.noor.mahi" class="" style="color: #009900;">Message</a> me on Facebook</li>
-                </ul>
-            </div>
-            <div class="done_div" id="done_div">
-                <button  id="done_btn">DONE</button>
-            </div>
-       </div>
-    </div>
-    <div id="web_content">
-        <div class="navigation" id="get_nav">
-            <div class="common_wrapper">     
-                <div class="navbar_content_wrapper">
-                    <div class="logo_div">
-                        <img src="/resources/img/5.png" alt="MAHI" class="logo">
-                        <!-- <h3 class="logo_txt_h3">Portfo<span class="highlight_color" id="spcecial_hglgt">lio<span class="bullet">.</span>
-                        </span></h3> -->
+
+        <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary visually-hidden" data-bs-toggle="modal" data-bs-target="#exampleModalCenter" id="exp">
+                Launch demo modal
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="modal-title" id="exampleModalLongTitle"><h2 class="text-danger">Website Currently Unavailable</h2></span>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3 class="text-warning">Sorry for the interruption</h3>
+                            <hr>
+                            <p class="lead">
+                                Welcome folks! Sorry for the interruption. I am currently working on the website and hope to publish a new and better version of the page. 
+                            </p>
+                            <h5 class="text-secondary">Thank you for your patience :')</h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            
+                        </div>
                     </div>
-                    <div class="sticky_logo">
-                        <a href="#home">
-                            <img src="resources/img/5.png" class="stklogo" alt="MAHI">
+                </div>
+            </div>
+        </div>
+    
+        <div class="hide-content" style="display:none;">
+            <!--HTML UNDER CONSTRUCTION-->
+
+                <div class="popup_box" id="popup">
+                    <div class="popup_content">
+                        <div class="img_box">
+                            <img src="resources/img/undraw_Personal_opinions_re_qw29.svg" alt="">
+                        </div>
+                        <div class="main_content">
+                            <h3 class="popup_welcome">Hey There !!</h3>
+                            <p class="welcome_text">
+                                <span class="highlight_color" style="font-weight: 500;">Thank you</span> for visiting my website.
+                            </p>
+                            <p class="popup_notice">
+                                This is a new Website and I am still Working on it. It is not 100% Responsive for all device width. So,
+                                it might not be <span class="highlight_color">compatible</span> with your device or browser.
+                                If you notice any <span class="highlight_color">Problem with the <a
+                                        href="https://en.wikipedia.org/wiki/Responsive_web_design"
+                                        class="highlight_color">Responsiveness</a></span> of the website, Please let me know.
+
+                            </p>
+                            <p class="signature">Ishat.n.Mahi</p>
+                            <ul>
+                                <li><a href="https://www.instagram.com/ishat_noor_mahi/" class="" style="color:#009900 ;">DM</a> me on
+                                    Instagram</li>
+                                <li><a href="http://m.me/ishat.noor.mahi" class="" style="color: #009900;">Message</a> me on Facebook
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="done_div" id="done_div">
+                            <button id="done_btn">DONE</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="web_content">
+                    <div class="navigation" id="get_nav">
+                        <div class="common_wrapper">
+                            <div class="navbar_content_wrapper">
+                                <div class="logo_div">
+                                    <img src="/resources/img/5.png" alt="MAHI" class="logo">
+                                    <!-- <h3 class="logo_txt_h3">Portfo<span class="highlight_color" id="spcecial_hglgt">lio<span class="bullet">.</span>
+                                        </span></h3> -->
+                                </div>
+                                <div class="sticky_logo">
+                                    <a href="#home">
+                                        <img src="resources/img/5.png" class="stklogo" alt="MAHI">
+                                    </a>
+                                </div>
+                                <div class="manubar">
+                                    <ul>
+                                        <li class="active">
+                                            <a href="/index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="/services.html">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="/blog.html">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#works">Works</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact.html">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-page.html">More</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- MENU BUTTON : SHOWS IN SMALL DEVICES ; -->
+                                <div class="menu_iconBox" id="mobileBars">
+                                    <i class="fas fa-bars" style="color: #fff;"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MOBILE MENU : SHOWS IN TABLETS AND MOBILES  -->
+                        <div class="overlay_mobile_menu" id="getMenuOverlay">
+                            <div class="overlay_close">
+                                <button type="button" id="closeMenuBtn" onclick="closeNave()">
+                                    <i class="far fa-window-close"></i>
+                                </button>
+                            </div>
+                            <div class="mobile_menu">
+                                <a href="/index.html" class="mobileMenulist" onclick="closeNave()">Home</a>
+                                <a href="#about" class="mobileMenulist" onclick="closeNave()">About</a>
+                                <a href="/services.html" class="mobileMenulist" onclick="closeNave()">Services</a>
+                                <a href="/blog.html" class="mobileMenulist" onclick="closeNave()">Blog</a>
+                                <a href="#works" class="mobileMenulist" onclick="closeNave()">Works</a>
+                                <a href="/contact.html" class="mobileMenulist" onclick="closeNave()">Contact</a>
+                                <a href="about-page.html" class="mobileMenulist" onclick="closeNave()">More</a>
+
+                            </div>
+                        </div>
+                        <div class="progress-container" id="myPContain">
+                            <div class="progress-barU" id="myBar"></div>
+                        </div>
+                    </div>
+                    <section class="home mhStyleDiv" id="home">
+                        <div class="common_wrapper">
+                            <div class="home_content">
+                                <div class="left animate__animated animate__fadeInLeft">
+                                    <img src="resources/img/homeimg/mainhomeimg.svg" alt="" id="totop">
+                                </div>
+                                <div class="right animate__animated animate__fadeInRight">
+                                    <div class="home_txtdiv_right">
+                                        <h2><span class="highlight_color">HI</span> There, I'm</h2>
+                                        <h1>Ishat Noor Mahi</h1>
+                                        <p class="role"><span class="typing"></span></p>
+                                        <p class="home_note">
+                                            This is my personal <span class="highlight_color">Portfolio</span> Website. I designed this
+                                            website from scratch. As an intermidiate web developer I tried my best to make this website
+                                            responsive and interactive. Please take a tour in my website.
+                                        </p>
+                                    </div>
+                                    <div class="home_btn">
+                                        <button class="common_btn" id="start_tour"><a href="#about"
+                                                style="color: #dcdcdc; text-decoration: none;">Start Tour</a></button>
+                                        <button class="common_btn" id="video_tour_btn"> <a
+                                                href="https://www.youtube.com/watch?v=EwfxTkV4QU8" style="color: #fff;">Video
+                                                Tour</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="about track-2nd-section" id="about">
+                        <div class="about_sec_header">
+                            <h2 class="h2">About Me</h2>
+                        </div>
+                        <div class="common_wrapper">
+                            <div class="about_content">
+                                <div class="about_left about_img_div animateEliment">
+                                    <img src="resources/img/Screenshot_2.png" alt="">
+                                </div>
+                                <!-- <div class="about_mid about_devider">
+                                        <img src="resources/img/devider_cyan.png" alt="">
+                                    </div> -->
+                                <div class="about_right about_img_details">
+                                    <div class="details">
+                                        <div class="name">
+                                            <h3 class="abt_h3"><span class="highlight_color_green">Greetings</span></h3>
+                                            <h2 class="abt_h2"><span class="highlight_color">K</span>now <span
+                                                    class="highlight_color">A</span>bout <span class="highlight_color">M</span>e</h2>
+                                        </div>
+                                        <div class="about_details_p">
+                                            <div class="desc_for_smDevices animate__animated animate__fadeInRight">
+                                                <p>I'm Ishat Noor Mahi.</p>
+                                                <p>I am 17 now.</p>
+                                                <p> I am a student of 10<sup>th </sup> in <a
+                                                        href="https://www.facebook.com/K-B-High-School-Online-Education-114670743612626"
+                                                        target="blank" style="font-style: normal;">KBHS, Mymensingh</a>.</p>
+                                                <p>I am a Web Developer and now learning more of it. I build high-end user-friendly and
+                                                    responsive website according to your requirements.</p>
+                                            </div>
+                                            <div class="desc_for_lgDevices animate__animated animate__fadeInRight">
+                                                <!-- <tr><td class="option">Name</td><td>Ishat Noor Mahi</td></tr>
+                                                    <tr><td class="option">Age</td><td>I'm 17 Now</td></tr>
+                                                    <tr><td class="option">Education</td><td> I am a student of 10<sup>th </sup> in <a href="https://www.facebook.com/K-B-High-School-Online-Education-114670743612626" target="blank" style="font-style: normal;">KBHS, Mymensingh</a>. </td></tr>
+                                                    <tr><td class="option">Description</td><td><p>I am a Web Developer and now learning more of it.  I build high-end user-friendly and responsive website according to your requirements.</p></td></tr> -->
+                                                <p style="font-size: 20px; margin-bottom: 10px;"> I am Ishat Noor Mahi. I am 17 now. I
+                                                    am a student as well as a web developer.</p>
+                                                <p>I Design Modern websites, convert psd's with my skills.</p>
+                                                <p> I have designed and developed this portfolio to make peaple understand my skills and
+                                                    to help them know more about me.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="services" id="services">
+                        <div class="service_header">
+                            <h2 class="">My Services </h2>
+                        </div>
+                        <div class="common_wrapper">
+                            <div class="services_content">
+                                <!-- <div class="services_filter">
+                                        <button type="button" data-filter="all" title="Show all services">All</button>
+                                        <button type="button" data-filter=".Web-Development" title="Show Web related services">Web Development</button>
+                                        <button type="button" data-filter=".Graphics-Design" title="Show graphic design related services">Graphics Design</button>
+                                        <button type="button" data-filter=".Photography"  title="Show My Photography and edit related services">Photography</button>
+                                    </div> -->
+                                <div class="services_filter tab">
+                                    <button class="tablinks" onclick="openTab(event, 'all')">All</button>
+                                    <button class="tablinks" onclick="openTab(event, 'webDesign')" id="defaultOpen">Web Design</button>
+                                    <button class="tablinks" onclick="openTab(event, 'graphicDesign')">Graphic Design</button>
+                                    <button class="tablinks" onclick="openTab(event, 'photography')">Photography</button>
+                                </div>
+                                <div class="all tabcontent" id="all">
+                                    <div class="all_services">
+                                        <div class="one_service mix Web-Development animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/frontend2.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Frontend Design</h3>
+                                                <p>I Design <span class="highlight_color_green">amazing</span> user interfaces. I mostly
+                                                    use <span class="highlight_color_green">H</span>tml, <span
+                                                        class="highlight_color_green">C</span>ss, and <span
+                                                        class="highlight_color_green">J</span>avascript. I also convert Psd, Xd, Ai to
+                                                    Html using Bootstrap </p>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Web-Development animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/backend.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Backend Development</h3>
+                                                <p> I am a backend web developer also. I use <span
+                                                        class="highlight_color_green">PHP</span> to make your website dynamic. As
+                                                    database and SQL I use <span class="highlight_color_green">Laravel and MySql</span>.
+                                                    Sometimes I aso use Django a web based framework of Python. </p>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Web-Development animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/graphic.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Psd-Xd-Ai-Figma to Html-Bootstrap</h3>
+                                                <p>I worked in many project of <span class="highlight_color_green">PSD - HTML</span>
+                                                    conversion. I also serve Adobe Xd, Illustrator, figma to Html & bootstrap. And I do
+                                                    it with responsibility.</p>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Web-Development animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/responsive.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Responsive Design</h3>
+                                                <p>I design websites with mobile responsiveness. I build device friendly user
+                                                    interfaces. This makes your website more good looking in all devices which increases
+                                                    the traffic also.</p>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Graphics-Design animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/frontend.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Photoshop</h3>
+                                                <p>Not only for psd-html conversion I also use <span class="highlight_color_green">Adobe
+                                                        Photoshop</span> for photo editing and illustrations.</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="one_service mix Graphics-Design animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/SVG.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Scalable Vector Graphics (SVG)</h3>
+                                                <p><span class="highlight_color_green">Scalable Vector Graphics (SVG) </span> is used
+                                                    mostly in websites. It is easy to make those graphics responsive.they are so durable
+                                                    also.I am a intermediate designer in the field of SVG's.</p>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Photography animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/photoEdit.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Photo Editing</h3>
+                                                <p>I occasionally edit photoes. I normally edit portrait photoes. I use <span
+                                                        class="highlight_color_green">Photoshop</span> & <span
+                                                        class="highlight_color_green">Adobe Lightroom</span> to edit photoes. You can
+                                                    visit some of my works in our photography facebook page <span
+                                                        class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                                <div class="service_btn_contain">
+                                                    <button class="common_btn"><a href="https://facebook.com/teamclique6"
+                                                            style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Photography animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/video.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Video Editing</h3>
+                                                <p>I occasionally edit Videos. I use <span class="highlight_color_green">Filmora
+                                                        X</span> & <span class="highlight_color_green">DaVinci Resolve 16</span> to edit
+                                                    Videos. You can visit some of my works in our photography & Videography facebook
+                                                    page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                                <div class="service_btn_contain">
+                                                    <button class="common_btn"><a href="https://facebook.com/teamclique6"
+                                                            style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="webDesign tabcontent" id="webDesign">
+                                    <div class="all_services">
+                                        <div class="one_service mix Web-Development animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/frontend2.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Frontend Design</h3>
+                                                <p>I Design <span class="highlight_color_green">amazing</span> user interfaces. I mostly
+                                                    use <span class="highlight_color_green">H</span>tml, <span
+                                                        class="highlight_color_green">C</span>ss, and <span
+                                                        class="highlight_color_green">J</span>avascript. I also convert Psd, Xd, Ai to
+                                                    Html using Bootstrap </p>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Web-Development animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/backend.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Backend Development</h3>
+                                                <p> I am a backend web developer also. I use <span
+                                                        class="highlight_color_green">PHP</span> to make your website dynamic. As
+                                                    database and SQL I use <span class="highlight_color_green">Laravel and MySql</span>.
+                                                    Sometimes I aso use Django a web based framework of Python. </p>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Web-Development animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/graphic.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Psd-Xd-Ai-Figma to Html-Bootstrap</h3>
+                                                <p>I worked in many project of <span class="highlight_color_green">PSD - HTML</span>
+                                                    conversion. I also serve Adobe Xd, Illustrator, figma to Html & bootstrap. And I do
+                                                    it with responsibility.</p>
+                                            </div>
+                                        </div>
+                                        <div class="one_service mix Web-Development animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/responsive.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Responsive Design</h3>
+                                                <p>I design websites with mobile responsiveness. I build device friendly user
+                                                    interfaces. This makes your website more good looking in all devices which increases
+                                                    the traffic also.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="graphicDesign tabcontent" id="graphicDesign">
+                                    <div class="all_services">
+                                        <div class="one_service mix Graphics-Design animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/frontend.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Photoshop</h3>
+                                                <p>Not only for psd-html conversion I also use <span class="highlight_color_green">Adobe
+                                                        Photoshop</span> for photo editing and illustrations.</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="one_service mix Graphics-Design animateEliment">
+                                            <div class="service_img_contain">
+                                                <img src="resources/img/SVG.svg" alt="">
+                                            </div>
+                                            <div class="service_detail_box">
+                                                <h3>Scalable Vector Graphics (SVG)</h3>
+                                                <p><span class="highlight_color_green">Scalable Vector Graphics (SVG) </span> is used
+                                                    mostly in websites. It is easy to make those graphics responsive.they are so durable
+                                                    also.I am a intermediate designer in the field of SVG's.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photography tabcontent" id="photography">
+                                <div class="all_services">
+                                    <div class="one_service mix Photography animateEliment-left">
+                                        <div class="service_img_contain">
+                                            <img src="resources/img/photoEdit.svg" alt="">
+                                        </div>
+                                        <div class="service_detail_box">
+                                            <h3>Photo Editing</h3>
+                                            <p>I occasionally edit photoes. I normally edit portrait photoes. I use <span
+                                                    class="highlight_color_green">Photoshop</span> & <span
+                                                    class="highlight_color_green">Adobe Lightroom</span> to edit photoes. You can visit
+                                                some of my works in our photography facebook page <span
+                                                    class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                            <div class="service_btn_contain">
+                                                <button class="common_btn"><a href="https://facebook.com/teamclique6"
+                                                        style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="one_service mix Photography animateEliment-left">
+                                        <div class="service_img_contain">
+                                            <img src="resources/img/video.svg" alt="">
+                                        </div>
+                                        <div class="service_detail_box">
+                                            <h3>Video Editing</h3>
+                                            <p>I occasionally edit Videos. I use <span class="highlight_color_green">Filmora X</span> &
+                                                <span class="highlight_color_green">DaVinci Resolve 16</span> to edit Videos. You can
+                                                visit some of my works in our photography & Videography facebook page <span
+                                                    class="highlight_color_green">TEAM CLIQUE</span>.</p>
+                                            <div class="service_btn_contain">
+                                                <button class="common_btn"><a href="https://facebook.com/teamclique6"
+                                                        style="color: rgb(201, 197, 197);">Visit our Page</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="skills_sec" id="skills">
+                        <div class="common_wrapper">
+                            <div class="skills_header">
+                                <p class="h2"> My Skills </p>
+                            </div>
+                            <div class="skills_content">
+                                <div class="skills_left">
+                                    <h4 class="skills_leftName text-center"
+                                        style="font-size: 2.4rem;font-family: 'Roboto', sans-serif; margin-bottom: 2rem;"> I Got Some
+                                        <span class="highlight_color">Skills.</span></h4>
+                                    <p class="skills_leftNote">
+                                        I have been learning various <span class="highlight_color_green">Technologies</span> since the
+                                        last 2/3 years. Now I am quite fimiliar and professional with some of them. I have 2 years of
+                                        experince in <span class="highlight_color_green">HTMl & CSS </span>. I am also an intermidiate
+                                        <span class="highlight_color_green"> JAVASCRIPT </span> programmer. I use Javascript to make my
+                                        frontend look more interactive. I also learnt <span class="highlight_color_green">Node.js</span>
+                                        to use Javascript in servers. In the field of servers (<span
+                                            class="highlight_color_green">Backend Development</span>) I Use <span
+                                            class="hilight_color_green">PHP & Laravel</span>.I have learnt some Python also. But i
+                                        didn't enlist it because I still don't use <span class="highlight_color_green">Python</span> in
+                                        Real World Projects. I have acquired knowledge of some <span class="hilight_color_green">web
+                                            frameworks</span> like <span class="hilight_color_green">Jquery, Bootstrap, Sass</span>. To
+                                        do <span class="hilight_color_green">PSD-HTML Conversion</span> I need Photo Editing and
+                                        graphics softwares like <span class="hilight_color_green">Adobe Photoshop, Figma</span> ect. So
+                                        I know basics of them too. I edit Photoes and videos sometimes. Visit my Works at <a
+                                            href="https://facebook.com/teamclique6">TEAM CLIQUE.</a> Learning new skills is like my
+                                        passion and that's why I am still learning new Technologies. Keep me in your prayers.
+                                    </p>
+                                    <!-- <div class="skills_logo_contain">
+                                        <a href="https://www.w3schools.com/html/default.asp"><img src="resources/img/1-removebg-preview.png" alt=""></a>
+                                        <a href="https://www.w3schools.com/css/default.asp"><img src="resources/img/2-removebg-preview.png" alt=""></a>
+                                        <a href="https://www.w3schools.com/jquery/default.asp"><img src="resources/img/3-removebg-preview.png" alt=""></a>
+                                        <a href="https://www.w3schools.com/bootstrap4/default.asp"><img src="resources/img/4-removebg-preview.png" alt=""></a>
+                                        <a href="https://www.w3schools.com/php/default.asp"><img src="resources/img/5-removebg-preview.png" alt=""></a>
+                                        <a href="https://www.w3schools.com/js/default.asp"><img src="resources/img/6-removebg-preview.png" alt=""></a>
+                                        <a href="https://www.w3schools.com/python/default.asp"><img src="resources/img/7-removebg-preview.png" alt=""></a>
+                                    </div> -->
+                                </div>
+                                <div class="about_right" style="width: 50rem; margin-top: 3rem;">
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> HTML </span>
+                                        </div>
+                                        <div id="bar1" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="99"></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> CSS </span>
+                                        </div>
+                                        <div id="bar2" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="90"></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> SASS </span>
+                                        </div>
+                                        <div id="bar3" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="55"></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> Bootstrap </span>
+                                        </div>
+                                        <div id="bar4" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="75"></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> Javascript </span>
+                                        </div>
+                                        <div id="bar5" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="85"></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> Jquery </span>
+                                        </div>
+                                        <div id="bar6" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="70"></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> PHP </span>
+                                        </div>
+                                        <div id="bar7" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="30"></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> Laravel </span>
+                                        </div>
+                                        <div id="bar8" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="10"></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar_wrap">
+                                        <div class="skill_name">
+                                            <span> Photoshop </span>
+                                        </div>
+                                        <div id="bar9" class="barfiller">
+                                            <div class="tipWrap">
+                                                <span class="tip"></span>
+                                            </div>
+                                            <span class="fill" data-percentage="82"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="work_sec" id="works">
+                        <div class="work_header" style="text-align: center; margin-top: 3.6rem; font-size: 1.7rem;">
+                            <h2>Some Of My Works</h2>
+                        </div>
+                        <div class="work_notice" style="text-align: center; padding-top: 5rem; margin-bottom: 50px;">
+                            <button type="button" class="common_btn"
+                                onclick="window.open('https://sites.google.com/view/mahi01portfolio/home')"
+                                style="width: 30rem;margin-top: 3rem; margin-left: 0;"> See Works In Google Sites Page </button><br>
+                            <button type="button" class="common_btn" onclick="window.open('https://inmahi.github.io/javascript/')"
+                                style="width: 30rem; margin-left: 0;margin-top: 3rem;"> See My JAVASCRIPT Programmes </button>
+                        </div>
+                        <div class="common_wrapper">
+                            <div class="works_contain">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="imgInLeft">
+                                        <img src="resources/img/Screenshot_6.png" alt="">
+                                        <div class="work_desc">
+                                            <b style="display: inline;">E-commerce Projects :</b>
+                                            <p>Ecommerce website is one of the most popular website types. I build responsive E-commerce
+                                                websites. I can make b2b or b2c multivandor E-commerce websites.</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="imgInRight">
+                                        <img src="resources/img/Screenshot_5.png" alt="">
+                                        <div class="work_desc">
+                                            <b style="display: inline;">Business Website Project :</b>
+                                            <p>
+                                                I make other business websites. like ride sharing companies, courier service etc.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="imgInLeft">
+                                        <img src="resources/img/Screenshotg_2.png" alt="">
+                                        <div class="work_desc">
+                                            <b style="display: inline;">Cuda Portfolio Project :</b>
+                                            <p>This is a company portfolio website. This is one of my Company Websites that i designed
+                                                and developed. <span class="highlight_color_green"><a
+                                                        href="https://inmahi.github.io/psd1.github.io/">Click here</a></span> to visit
+                                                the Demo page.</p>
+                                        </div>
+                                    </div>
+                                    <div class="imgInRight">
+                                        <img src="resources/img/Screenshot_17.png" alt="">
+                                        <div class="work_desc">
+                                            <b style="display: inline;">JAVASCRIPT Projects :</b>
+                                            <p>As I've mentioned before, I am an intermediate JavaScript programmer. I am still learning
+                                                new thing in javascript. I made many Programmes with JavaScript. Click the buttons to
+                                                see my works.</p>
+                                            <button type="button" class="common_btn"
+                                                onclick="window.open('https://inmahi.github.io/javascript/js5.html')"
+                                                style="width: 30rem; margin-left: 0;margin-top: 3rem;">Show JavaScript Projects</button>
+                                        </div>
+                                    </div>
+                                    <div class="imgInLeft">
+                                        <img src="resources/img/games.png" alt="">
+                                        <div class="work_desc">
+                                            <b style="display: inline;">I make JS Games :</b>
+                                            <p> I have made some beginner JavaScript games. I showed 2 of them in the Compilation Page.
+                                                You can <span class="highlight_color_green"><a
+                                                        href="'https://inmahi.github.io/Minesweeper/#">Play Minesweeper</a></span> or
+                                                <span class="highlight_color_green"><a
+                                                        href="https://inmahi.github.io/javascript/js2.html">Guessing Game</a></span>.
+                                            </p>
+                                            <button type="button" class="common_btn"
+                                                onclick="window.open('https://inmahi.github.io/Minesweeper/#')"
+                                                style="width:15rem; margin-left: 0;margin-top: 3rem;">Play MineSweeper</button>
+                                            <button type="button" class="common_btn"
+                                                onclick="window.open('https://inmahi.github.io/javascript/js2.html')"
+                                                style="width:15rem; margin-left: 0rem;margin-top: 3rem;">Play Guessing Game</button>
+                                        </div>
+                                    </div>
+                                    <div class="imgInRight">
+                                        <img src="resources/img/Screenshot_4.png" alt="Medical Websites">
+                                        <div class="work_desc">
+                                            <b style="display: inline;">Medical Websites :</b>
+                                            <p>I make Medical websites. I have worked in 2/3 private hospital website Projects</p>
+                                        </div>
+                                    </div>
+                                    <div class="imgInLeft">
+                                        <img src="resources/img/Screenshot_7.png" alt="Educational websites">
+                                        <div class="work_desc">
+                                            <b style="display: inline;">Educational Institute Websites :</b>
+                                            <p>I made websites for some Educational Institute. Here you can see on of those websites.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <!-- <button type="button" class="common_btn" onclick="window.open('https://sites.google.com/view/mahi01portfolio/home')" style="width: 50rem;display: block;margin: 50px auto;"> Show More Works <img src="resources/img/redirect.svg" alt=""> </button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="map" style="padding-bottom: 20px; background: #cacacaf0;  ">
+                        <div class="common_wrapper">
+                            <div class="map_header"
+                                style="text-align: center; padding-top: 3.6rem;padding-bottom: 2rem;font-size: 1.7rem;">
+                                <h2 class="h2">Locate me</h2>
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.211155518934!2d90.42446434955205!3d24.719630056899618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564f8d52440287%3A0xfcebfe71fc354e6c!2sBangladesh%20Agricultural%20University%20(BAU)!5e0!3m2!1sen!2sbd!4v1624444901111!5m2!1sen!2sbd"
+                                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </section>
+                    <section class="bg-primary getInTouch p-5">
+                        <div class="container">
+                            <div class="common_wrapper">
+                                <div class="GetInTouch_content">
+                                    <div class="gg text-center">
+                                        <h3 class="text-center text-light h2 mt-4">Are You Ready To Get Started?</h3>
+                                        <div class="input-group mb-3 mt-5 news_input mx-auto">
+                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-open"
+                                                    aria-hidden="true"></i></span>
+                                            <input type="text" class="form-control w-50" placeholder="Subscribe to newsletter"
+                                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                                            <button class="btn btn-danger" type="button" id="button-addon2">Subscribe</button>
+                                        </div>
+                                        <button class="btn btn-success btn-lg my-5"> <a
+                                                href="https://www.fiverr.com/ishat_noor_mahi?up_rollout=true" class="text-light">Hire
+                                                Me</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="contact" id="contact" style="padding-top: 5rem;padding-bottom: 2rem;">
+                        <div class="contact_header" style="display: block;text-align: center;">
+                            <h2 style="font-size: 2.7rem;" class="my-4">Contact Me</h2>
+                        </div>
+                        <div class="common_wrapper">
+                            <div class="contact_content">
+
+                                <div class="contact_fiverr">
+                                    <div style="text-align: center;">
+                                        <h3 style="font-size: 1.9rem;margin-bottom: 20px;">I Am On Fiverr</h3>
+                                    </div>
+                                    <div class="marketplace_icon">
+                                        <div class="myimg">
+                                            <img src="resources/img/fiverr.png" alt="">
+                                        </div>
+                                        <p class="contact_icon_desc" style="font-size: 1.9rem;"><a
+                                                href="https://www.fiverr.com/ishat_noor_mahi?up_rollout=true"> You Can Hire Me on
+                                                Fiverr</a></p>
+                                    </div>
+                                </div>
+                                <div class="hr">
+                                    <div class="vl">
+                                        <span class="vl-innertext">or</span>
+                                    </div>
+                                </div>
+                                <div class="contact_mssg">
+                                    <form action="https://formspree.io/ishatnoormahi787@gmail.com" target="blank" method="post">
+                                        <div class="twoInput">
+                                            <input type="text" placeholder="Your Name *" name="Name">
+                                            <input type="email" placeholder="Your Email *" required name="email">
+                                        </div>
+                                        <div class="oneInput">
+                                            <textarea name="Message" cols="30" rows="10" placeholder="Your Message *"
+                                                required></textarea>
+                                        </div>
+                                        <div class="submit_mssg">
+                                            <input type="submit" value="SEND MESSAGE" class="common_btn btn btn-submit"
+                                                title="This Page Uses A THIRD PARTY SERVICE To Make This Form Work."
+                                                style="text-align: center; font-size: 1.5rem;">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="p-5 text-light" style="background-color: rgba(34, 34, 34, 0.986);">
+                        <figure class="text-center">
+                            <blockquote class="blockquote">
+                                <p>'Satisfaction lies in the effort, not in the attainment.'</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Great social activist <cite title="Source Title">Mahatma Gandhi</cite>
+                            </figcaption>
+                        </figure>
+                    </section>
+                    <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+
+                    <div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget'
+                        style='display: inline-block; text-align: center;'>
+                        <a itemprop='url' href=https://www.fiverr.com/ishat_noor_mahi rel="nofollow" target="_blank"
+                            style='display: inline-block;'>
+                            <div class='fiverr-seller-content' id='fiverr-seller-widget-content-a0c22c4a-af64-413f-b6f9-4b04fbb3157c'
+                                itemprop='contentURL' style='display: none;'></div>
+                            <div id='fiverr-widget-seller-data' style='display: none;'>
+                                <div itemprop='name'>ishat_noor_mahi</div>
+                                <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
+                                <div itemprop='jobtitle'>Ishat Noor Mahi</div>
+                                <div itemprop='description'>Hi, I am Mahi!
+                                    I am a dedicated Website Designer & Developer. I have acquired so many skills in this field.
+                                    I work confidently with The Frameworks & CMS.
+                                    I have 3 years of working experience in HTML, CSS, Javascript, bootstrap & jquery & 2 years of
+                                    experience in Php, laravel, and MySQL.
+                                    I am very passionate about my work & most importantly, I collaborate with my clients friendly.
+                                    throughout my career, I have developed my problem-solving skills & patience.
+                                    Your business is already sensational, let's collaborate together and make it more increasing. </div>
+                            </div>
                         </a>
                     </div>
-                    <div class="manubar">
-                        <ul>
-                            <li class="active">
-                                <a href="/index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li>
-                                <a href="/services.html">Services</a>
-                            </li>
-                            <li>
-                                <a href="/blog.html">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#works">Works</a>
-                            </li>
-                            <li>
-                                <a href="/contact.html">Contact</a>
-                            </li>
-                            <li>
-                                <a href="about-page.html">More</a>
-                            </li>
-                        </ul>
-                    </div>
-                   <!-- MENU BUTTON : SHOWS IN SMALL DEVICES ; -->
-                   <div class="menu_iconBox" id="mobileBars">
-                    <i class="fas fa-bars" style="color: #fff;"></i>
-                   </div>
-                </div>    
-            </div>
-            <!-- MOBILE MENU : SHOWS IN TABLETS AND MOBILES  --> 
-            <div class="overlay_mobile_menu" id="getMenuOverlay">
-                <div class="overlay_close">
-                    <button type="button" id="closeMenuBtn" onclick="closeNave()">
-                        <i class="far fa-window-close"></i>
-                    </button>
-                </div>
-                <div class="mobile_menu">
-                    <a href="/index.html" class="mobileMenulist" onclick="closeNave()">Home</a> 
-                    <a href="#about" class="mobileMenulist" onclick="closeNave()">About</a>
-                    <a href="/services.html" class="mobileMenulist" onclick="closeNave()">Services</a>
-                    <a href="/blog.html" class="mobileMenulist" onclick="closeNave()">Blog</a>
-                    <a href="#works" class="mobileMenulist" onclick="closeNave()">Works</a>  
-                    <a href="/contact.html" class="mobileMenulist" onclick="closeNave()">Contact</a>
-                    <a href="about-page.html" class="mobileMenulist" onclick="closeNave()">More</a>
 
-            </div>
-           </div> 
-           <div class="progress-container" id="myPContain">
-            <div class="progress-barU" id="myBar"></div>
-          </div> 
+                    <script id='fiverr-seller-widget-script-a0c22c4a-af64-413f-b6f9-4b04fbb3157c'
+                        src='https://widgets.fiverr.com/api/v1/seller/ishat_noor_mahi?widget_id=a0c22c4a-af64-413f-b6f9-4b04fbb3157c'
+                        data-config='{"category_name":"\n                                    Programming \u0026 Tech\n\n                            "}'
+                        async='true' defer='true'></script>
+
+                    <footer class="track-footer" id="mahi01Footer">
+                        <div class="footer_part1">
+                            <div class="footer_links">
+                                <a href="https://www.facebook.com/ishat.noor.mahi/"><i class="fab fa-facebook-square footfb"></i></a>
+                                <a href="https://www.youtube.com/channel/UCTlPCzHe1c8oS7Y3makQygg"><i
+                                        class="fab fa-youtube footyt"></i></a>
+                                <a href="http://m.me/ishat.noor.mahi"><i class="fab fa-facebook-messenger footmssngr"></i></a>
+                                <a href="https://www.instagram.com/ishat_noor_mahi/"><i class="fab fa-instagram-square footig"></i></a>
+                                <a href="https://twitter.com/IshatMahi"><i class="fab fa-twitter-square foottwt"></i></a>
+                                <a href="https://github.com/INmahi"><i class="fab fa-github-square footgithub"></i></a>
+                                <a href="https://gmail.com" title="ishatnoormahi787@gmail.com"><i class="fas fa-envelope footgithub"
+                                        style="font-size: 3rem;color: #EA4335;margin-left: 0.7rem;"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer_part2">
+                            <div class="text_footer">
+                                <a href="javascript:void(0);">Privacy</a>
+                                <a href="#about">About</a>
+                                <a href="javascript:void(0);">Need Help?</a>
+                                <a href="javascript:void(0);">Content</a>
+                                <a href="https://github.com/INmahi/portfolio">Source Code</a>
+                                <a href="https://github.com/INmahi">Github</a>
+                                <a href="#contact">Feedback</a>
+                            </div>
+                        </div>
+                        <!-- ABOUT THIS site  -->
+                        <div class="abouPage animate__animated animate__flash animate__slower animate__infinite" id="aboutWeb">
+                            <div class="myTxt" style="font-size: 1.7rem;color: #ccc9c9;text-align: center;padding-bottom: 26px;"><a
+                                    href="about-page.html">ABOUT THIS WEBSITE</a></div>
+                        </div>
+                        <!-- COPYRIGHT TEXT -->
+                        <div class="copy">
+                            <div class="copytxt">&copy; Ishat Noor Mahi | 2021 | all rights reserved.</div>
+                        </div>
+                    </footer>
+                    <!-- SCROLL BACK TO TOP BUTTON -->
+                    <a href="#totop" class="to-top" title="Scroll Back to Top">
+                        <i class="fas fa-chevron-up" aria-hidden="true" style="
+                            position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);"></i>
+                    </a>
+                </div>
+                <!-- CHECK NETWORK STATUS AND SHOW SNACKBAR -->
+                <div class="online_status">
+                    <div id="snackbar">You are <span id="status"></span></div>
+                    <!--online/offline detect-->
+                </div>
+
+
         </div>
-        <section class="home mhStyleDiv" id="home">
-                <div class="common_wrapper">
-                    <div class="home_content">
-                        <div class="left animate__animated animate__fadeInLeft">       
-                            <img src="resources/img/homeimg/mainhomeimg.svg" alt=""  id="totop">
-                        </div>
-                        <div class="right animate__animated animate__fadeInRight">
-                            <div class="home_txtdiv_right">
-                                <h2><span class="highlight_color">HI</span> There, I'm</h2>
-                                <h1>Ishat Noor Mahi</h1>
-                                <p class="role"><span class="typing"></span></p>
-                                <p class="home_note">
-                                    This is my personal <span class="highlight_color">Portfolio</span> Website. I designed this website from scratch. As an intermidiate web developer I tried my best to make this website responsive and interactive. Please take a tour in my website. 
-                                </p>
-                            </div>
-                            <div class="home_btn">
-                                <button class="common_btn" id="start_tour"><a href="#about" style="color: #dcdcdc; text-decoration: none;">Start Tour</a></button>
-                                <button class="common_btn" id="video_tour_btn"> <a href="https://www.youtube.com/watch?v=EwfxTkV4QU8" style="color: #fff;">Video Tour</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-        </section>
-        <section class="about track-2nd-section" id="about">
-            <div class="about_sec_header">
-                <h2 class="h2">About Me</h2>
-            </div>
-            <div class="common_wrapper">
-                <div class="about_content">
-                    <div class="about_left about_img_div animateEliment">
-                        <img src="resources/img/Screenshot_2.png" alt="">
-                    </div>
-                    <!-- <div class="about_mid about_devider">
-                        <img src="resources/img/devider_cyan.png" alt="">
-                    </div> -->
-                    <div class="about_right about_img_details">
-                        <div class="details">
-                            <div class="name">
-                                <h3 class="abt_h3"><span class="highlight_color_green">Greetings</span></h3>
-                                <h2 class="abt_h2"><span class="highlight_color">K</span>now <span class="highlight_color">A</span>bout <span class="highlight_color">M</span>e</h2>
-                            </div>
-                            <div class="about_details_p">
-                                <div class="desc_for_smDevices animate__animated animate__fadeInRight">
-                                    <p>I'm Ishat Noor Mahi.</p>
-                                    <p>I am 17 now.</p>
-                                    <p> I am a student of 10<sup>th </sup> in <a href="https://www.facebook.com/K-B-High-School-Online-Education-114670743612626" target="blank" style="font-style: normal;">KBHS, Mymensingh</a>.</p>
-                                    <p>I am a Web Developer and now learning more of it.  I build high-end user-friendly and responsive website according to your requirements.</p>
-                                </div>
-                                <div class="desc_for_lgDevices animate__animated animate__fadeInRight">
-                                    <!-- <tr><td class="option">Name</td><td>Ishat Noor Mahi</td></tr>
-                                    <tr><td class="option">Age</td><td>I'm 17 Now</td></tr>
-                                    <tr><td class="option">Education</td><td> I am a student of 10<sup>th </sup> in <a href="https://www.facebook.com/K-B-High-School-Online-Education-114670743612626" target="blank" style="font-style: normal;">KBHS, Mymensingh</a>. </td></tr>
-                                    <tr><td class="option">Description</td><td><p>I am a Web Developer and now learning more of it.  I build high-end user-friendly and responsive website according to your requirements.</p></td></tr> -->
-                                   <p style="font-size: 20px; margin-bottom: 10px;"> I am Ishat Noor Mahi. I am 17 now. I am a student as well as a web developer.</p><p>I Design Modern websites, convert psd's with my skills.</p><p> I have designed and developed this portfolio to make peaple understand my skills and to help them know more about me. 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="services" id="services">
-            <div class="service_header">
-                <h2 class="">My Services </h2>
-            </div>
-            <div class="common_wrapper">
-                <div class="services_content">
-                    <!-- <div class="services_filter">
-                        <button type="button" data-filter="all" title="Show all services">All</button>
-                        <button type="button" data-filter=".Web-Development" title="Show Web related services">Web Development</button>
-                        <button type="button" data-filter=".Graphics-Design" title="Show graphic design related services">Graphics Design</button>
-                        <button type="button" data-filter=".Photography"  title="Show My Photography and edit related services">Photography</button>
-                    </div> -->
-                    <div class="services_filter tab">
-                        <button class="tablinks" onclick="openTab(event, 'all')">All</button>
-                        <button class="tablinks" onclick="openTab(event, 'webDesign')" id="defaultOpen">Web Design</button>
-                        <button class="tablinks" onclick="openTab(event, 'graphicDesign')">Graphic Design</button>
-                        <button class="tablinks" onclick="openTab(event, 'photography')">Photography</button>
-                    </div>
-                      <div class="all tabcontent" id="all">
-                          <div class="all_services">
-                            <div class="one_service mix Web-Development animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/frontend2.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Frontend Design</h3>
-                                <p>I Design <span class="highlight_color_green">amazing</span> user interfaces. I mostly use <span class="highlight_color_green">H</span>tml, <span class="highlight_color_green">C</span>ss, and <span class="highlight_color_green">J</span>avascript. I also convert Psd, Xd, Ai to Html using Bootstrap </p>
-                                </div>
-                            </div>
-                            <div class="one_service mix Web-Development animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/backend.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Backend Development</h3>
-                                <p> I am a backend web developer also. I use <span class="highlight_color_green">PHP</span> to make your website dynamic. As database and SQL I use <span class="highlight_color_green">Laravel and MySql</span>. Sometimes I aso use Django a web based framework of Python.  </p>
-                                </div>
-                            </div>
-                            <div class="one_service mix Web-Development animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/graphic.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Psd-Xd-Ai-Figma to Html-Bootstrap</h3>
-                                    <p>I worked in many project of <span class="highlight_color_green">PSD - HTML</span> conversion. I also serve Adobe Xd, Illustrator, figma to Html & bootstrap. And I do it with  responsibility.</p>
-                                </div>
-                            </div>
-                            <div class="one_service mix Web-Development animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/responsive.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Responsive Design</h3>
-                                    <p>I design websites with mobile responsiveness. I build device friendly user interfaces. This makes your website more good looking in all devices which increases the traffic also.</p>
-                                </div>
-                            </div>
-                            <div class="one_service mix Graphics-Design animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/frontend.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Photoshop</h3>
-                                    <p>Not only for psd-html conversion I also use <span class="highlight_color_green">Adobe Photoshop</span> for photo editing and illustrations.</p>
-                                </div>
-                                
-                            </div>
-                            <div class="one_service mix Graphics-Design animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/SVG.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Scalable Vector Graphics (SVG)</h3>
-                                    <p><span class="highlight_color_green">Scalable Vector Graphics (SVG) </span> is used mostly in websites. It is easy to make those graphics responsive.they are so durable also.I am a intermediate designer in the field of SVG's.</p>
-                                </div>
-                            </div>
-                            <div class="one_service mix Photography animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/photoEdit.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Photo Editing</h3>
-                                    <p>I occasionally edit photoes. I normally edit portrait photoes. I use <span class="highlight_color_green">Photoshop</span> & <span class="highlight_color_green">Adobe Lightroom</span> to edit photoes. You can visit some of my works in our photography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
-                                    <div class="service_btn_contain">
-                                        <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="one_service mix Photography animateEliment">
-                            <div class="service_img_contain">
-                                <img src="resources/img/video.svg" alt="">
-                            </div>
-                            <div class="service_detail_box">
-                                <h3>Video Editing</h3>
-                                <p>I occasionally edit Videos. I use <span class="highlight_color_green">Filmora X</span> & <span class="highlight_color_green">DaVinci Resolve 16</span> to edit Videos. You can visit some of my works in our photography & Videography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
-                                <div class="service_btn_contain">
-                                    <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
-                                </div>
-                            </div>
-                        </div>
-                       </div> 
-                      </div>
-                      <div class="webDesign tabcontent" id="webDesign">
-                          <div class="all_services">
-                            <div class="one_service mix Web-Development animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/frontend2.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Frontend Design</h3>
-                                <p>I Design <span class="highlight_color_green">amazing</span> user interfaces. I mostly use <span class="highlight_color_green">H</span>tml, <span class="highlight_color_green">C</span>ss, and <span class="highlight_color_green">J</span>avascript. I also convert Psd, Xd, Ai to Html using Bootstrap </p>
-                                </div>
-                            </div>
-                            <div class="one_service mix Web-Development animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/backend.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Backend Development</h3>
-                                <p> I am a backend web developer also. I use <span class="highlight_color_green">PHP</span> to make your website dynamic. As database and SQL I use <span class="highlight_color_green">Laravel and MySql</span>. Sometimes I aso use Django a web based framework of Python.  </p>
-                                </div>
-                            </div>
-                            <div class="one_service mix Web-Development animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/graphic.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Psd-Xd-Ai-Figma to Html-Bootstrap</h3>
-                                    <p>I worked in many project of <span class="highlight_color_green">PSD - HTML</span> conversion. I also serve Adobe Xd, Illustrator, figma to Html & bootstrap. And I do it with  responsibility.</p>
-                                </div>
-                            </div>
-                            <div class="one_service mix Web-Development animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/responsive.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Responsive Design</h3>
-                                    <p>I design websites with mobile responsiveness. I build device friendly user interfaces. This makes your website more good looking in all devices which increases the traffic also.</p>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="graphicDesign tabcontent" id="graphicDesign">
-                          <div class="all_services">
-                           <div class="one_service mix Graphics-Design animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/frontend.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Photoshop</h3>
-                                    <p>Not only for psd-html conversion I also use <span class="highlight_color_green">Adobe Photoshop</span> for photo editing and illustrations.</p>
-                                </div>
-                                
-                            </div>
-                            <div class="one_service mix Graphics-Design animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/SVG.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Scalable Vector Graphics (SVG)</h3>
-                                    <p><span class="highlight_color_green">Scalable Vector Graphics (SVG) </span> is used mostly in websites. It is easy to make those graphics responsive.they are so durable also.I am a intermediate designer in the field of SVG's.</p>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="photography tabcontent" id="photography">
-                        <div class="all_services">
-                            <div class="one_service mix Photography animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/photoEdit.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Photo Editing</h3>
-                                    <p>I occasionally edit photoes. I normally edit portrait photoes. I use <span class="highlight_color_green">Photoshop</span> & <span class="highlight_color_green">Adobe Lightroom</span> to edit photoes. You can visit some of my works in our photography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
-                                    <div class="service_btn_contain">
-                                        <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="one_service mix Photography animateEliment">
-                                <div class="service_img_contain">
-                                    <img src="resources/img/video.svg" alt="">
-                                </div>
-                                <div class="service_detail_box">
-                                    <h3>Video Editing</h3>
-                                    <p>I occasionally edit Videos. I use <span class="highlight_color_green">Filmora X</span> & <span class="highlight_color_green">DaVinci Resolve 16</span> to edit Videos. You can visit some of my works in our photography & Videography facebook page <span class="highlight_color_green">TEAM CLIQUE</span>.</p>
-                                    <div class="service_btn_contain">
-                                        <button class="common_btn"><a href="https://facebook.com/teamclique6" style="color: rgb(201, 197, 197);">Visit our Page</a></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                      </div>
-            </div>
-        </section>
-        <section class="skills_sec" id="skills">
-           <div class="common_wrapper">
-                <div class="skills_header">
-                    <p class="h2"> My Skills </p>
-            </div>
-            <div class="skills_content">
-                <div class="skills_left">
-                    <h4 class="skills_leftName text-center" style="font-size: 2.4rem;font-family: 'Roboto', sans-serif; margin-bottom: 2rem;"> I Got Some <span class="highlight_color">Skills.</span></h4>
-                    <p class="skills_leftNote">
-                        I have been learning various <span class="highlight_color_green">Technologies</span> since the last 2/3 years. Now I am quite fimiliar and professional with some of them. I have 2 years of experince in <span class="highlight_color_green">HTMl & CSS </span>. I am also an intermidiate <span class="highlight_color_green"> JAVASCRIPT </span> programmer. I use Javascript to make my frontend look more interactive. I also learnt <span class="highlight_color_green">Node.js</span> to use Javascript in servers. In the field of servers (<span class="highlight_color_green">Backend Development</span>) I Use <span class="hilight_color_green">PHP & Laravel</span>.I have learnt some Python also. But i didn't enlist it because I still don't use <span class="highlight_color_green">Python</span> in Real World Projects. I have acquired knowledge of some <span class="hilight_color_green">web frameworks</span> like <span class="hilight_color_green">Jquery, Bootstrap, Sass</span>. To do <span class="hilight_color_green">PSD-HTML Conversion</span> I need Photo Editing and graphics softwares like <span class="hilight_color_green">Adobe Photoshop, Figma</span> ect. So I know basics of them too. I edit Photoes and videos sometimes. Visit my Works at  <a href="https://facebook.com/teamclique6">TEAM CLIQUE.</a> Learning new skills is like my passion and that's why I am still learning new Technologies. Keep me in your prayers. 
-                    </p>
-                    <!-- <div class="skills_logo_contain">
-                        <a href="https://www.w3schools.com/html/default.asp"><img src="resources/img/1-removebg-preview.png" alt=""></a>
-                        <a href="https://www.w3schools.com/css/default.asp"><img src="resources/img/2-removebg-preview.png" alt=""></a>
-                        <a href="https://www.w3schools.com/jquery/default.asp"><img src="resources/img/3-removebg-preview.png" alt=""></a>
-                        <a href="https://www.w3schools.com/bootstrap4/default.asp"><img src="resources/img/4-removebg-preview.png" alt=""></a>
-                        <a href="https://www.w3schools.com/php/default.asp"><img src="resources/img/5-removebg-preview.png" alt=""></a>
-                        <a href="https://www.w3schools.com/js/default.asp"><img src="resources/img/6-removebg-preview.png" alt=""></a>
-                        <a href="https://www.w3schools.com/python/default.asp"><img src="resources/img/7-removebg-preview.png" alt=""></a>
-                    </div> -->
-                </div>
-                <div class="about_right" style="width: 50rem; margin-top: 3rem;">
-                    <div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> HTML </span>
-                        </div> 
-                        <div id="bar1" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="99"></span>
-                      </div>
-                    </div>
-                    <div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> CSS </span>
-                        </div> 
-                        <div id="bar2" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="90"></span>
-                      </div>
-                    </div><div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> SASS </span>
-                        </div> 
-                        <div id="bar3" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="55"></span>
-                      </div>
-                    </div><div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> Bootstrap </span>
-                        </div> 
-                        <div id="bar4" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="75"></span>
-                      </div>
-                    </div><div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> Javascript </span>
-                        </div> 
-                        <div id="bar5" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="85"></span>
-                      </div>
-                    </div>
-                    <div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> Jquery </span>
-                        </div> 
-                        <div id="bar6" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="70"></span>
-                      </div>
-                    </div>
-                    <div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> PHP </span>
-                        </div> 
-                        <div id="bar7" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="30"></span>
-                      </div>
-                    </div>
-                    <div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> Laravel </span>
-                        </div> 
-                        <div id="bar8" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="10"></span>
-                      </div>
-                    </div><div class="bar_wrap">
-                        <div class="skill_name">
-                            <span> Photoshop </span>
-                        </div> 
-                        <div id="bar9" class="barfiller">
-                            <div class="tipWrap">
-                            <span class="tip"></span>
-                            </div>
-                            <span class="fill" data-percentage="82"></span>
-                      </div>
-                    </div>
-                </div>
-            </div>
-           </div>
-        </section>
-        <section class="work_sec" id="works">
-            <div class="work_header" style="text-align: center; margin-top: 3.6rem; font-size: 1.7rem;">
-                <h2>Some Of My Works</h2>
-            </div>
-            <div class="work_notice" style="text-align: center; padding-top: 5rem; margin-bottom: 50px;">
-                <button type="button" class="common_btn" onclick="window.open('https://sites.google.com/view/mahi01portfolio/home')" style="width: 30rem;margin-top: 3rem; margin-left: 0;"> See Works In Google Sites Page </button><br>
-                <button type="button" class="common_btn" onclick="window.open('https://inmahi.github.io/javascript/')" style="width: 30rem; margin-left: 0;margin-top: 3rem;"> See My JAVASCRIPT Programmes </button>
-            </div>
-            <div class="common_wrapper">
-                <div class="works_contain">
-                    <div class="owl-carousel owl-theme">
-                    <div class="imgInLeft">
-                        <img src="resources/img/Screenshot_6.png" alt="">
-                        <div class="work_desc">
-                            <b style="display: inline;">E-commerce Projects :</b><p>Ecommerce website is one of the most popular website types. I build responsive E-commerce websites. I can make b2b or b2c multivandor E-commerce websites.</p>
-                        </div>
-                        
-                    </div>
-                    <div class="imgInRight">
-                        <img src="resources/img/Screenshot_5.png" alt="">
-                        <div class="work_desc">
-                            <b style="display: inline;">Business Website Project :</b><p>
-                                I make other business websites. like ride sharing companies, courier service etc.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="imgInLeft">
-                        <img src="resources/img/Screenshotg_2.png" alt="">
-                        <div class="work_desc">
-                            <b style="display: inline;">Cuda Portfolio Project :</b><p>This is a company portfolio website. This is one of my Company Websites that i designed and developed. <span class="highlight_color_green"><a href="https://inmahi.github.io/psd1.github.io/">Click here</a></span> to visit the Demo page.</p>
-                        </div>
-                    </div>
-                    <div class="imgInRight">
-                        <img src="resources/img/Screenshot_17.png" alt="">
-                        <div class="work_desc">
-                            <b style="display: inline;">JAVASCRIPT Projects :</b>  <p>As I've mentioned before, I am an intermediate JavaScript programmer. I am still learning new thing in javascript. I made many Programmes with JavaScript. Click the buttons to see my works.</p>
-                            <button type="button" class="common_btn" onclick="window.open('https://inmahi.github.io/javascript/js5.html')" style="width: 30rem; margin-left: 0;margin-top: 3rem;">Show JavaScript Projects</button> 
-                        </div>                       
-                    </div>
-                    <div class="imgInLeft">
-                        <img src="resources/img/games.png" alt="">
-                        <div class="work_desc">
-                            <b style="display: inline;">I make JS Games :</b>  <p> I have made some beginner JavaScript games. I showed 2 of them in the Compilation Page. You can <span class="highlight_color_green"><a href="'https://inmahi.github.io/Minesweeper/#">Play Minesweeper</a></span> or <span class="highlight_color_green"><a href="https://inmahi.github.io/javascript/js2.html">Guessing Game</a></span>. </p>
-                            <button type="button" class="common_btn" onclick="window.open('https://inmahi.github.io/Minesweeper/#')" style="width:15rem; margin-left: 0;margin-top: 3rem;">Play MineSweeper</button>
-                            <button type="button" class="common_btn" onclick="window.open('https://inmahi.github.io/javascript/js2.html')" style="width:15rem; margin-left: 0rem;margin-top: 3rem;">Play Guessing Game</button>    
-                        </div>
-                    </div>
-                    <div class="imgInRight">
-                        <img src="resources/img/Screenshot_4.png" alt="Medical Websites">
-                        <div class="work_desc">
-                            <b style="display: inline;">Medical Websites :</b>  <p>I make Medical websites. I have worked in 2/3 private hospital website Projects</p>
-                        </div>                       
-                    </div>
-                    <div class="imgInLeft">
-                        <img src="resources/img/Screenshot_7.png" alt="Educational websites">
-                        <div class="work_desc">
-                            <b style="display: inline;">Educational Institute Websites :</b>  <p>I made websites for some Educational Institute. Here you can see on of those websites. </p>
-                                
-                        </div>
-                    </div>
-                    <!-- <button type="button" class="common_btn" onclick="window.open('https://sites.google.com/view/mahi01portfolio/home')" style="width: 50rem;display: block;margin: 50px auto;"> Show More Works <img src="resources/img/redirect.svg" alt=""> </button> -->
-                </div>
-                </div>
-            </div>
-        </section>
-        <section class="map" style="padding-bottom: 20px; background: #cacacaf0;  ">
-            <div class="common_wrapper">
-                <div class="map_header" style="text-align: center; padding-top: 3.6rem;padding-bottom: 2rem;font-size: 1.7rem;">
-                    <h2 class="h2">Locate me</h2>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.211155518934!2d90.42446434955205!3d24.719630056899618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564f8d52440287%3A0xfcebfe71fc354e6c!2sBangladesh%20Agricultural%20University%20(BAU)!5e0!3m2!1sen!2sbd!4v1624444901111!5m2!1sen!2sbd" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
-        <section class="bg-primary getInTouch p-5">
-            <div class="container">
-                <div class="common_wrapper">
-                    <div class="GetInTouch_content">
-                        <div class="gg text-center">
-                            <h3 class="text-center text-light h2 mt-4">Are You Ready To Get Started?</h3>
-                            <div class="input-group mb-3 mt-5 news_input mx-auto">
-                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-open" aria-hidden="true"></i></span>
-                                <input type="text" class="form-control w-50" placeholder="Subscribe to newsletter" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                <button class="btn btn-danger" type="button" id="button-addon2">Subscribe</button>
-                              </div>
-                              <button class="btn btn-success btn-lg my-5"> <a href="https://www.fiverr.com/ishat_noor_mahi?up_rollout=true" class="text-light">Hire Me</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-        <section class="contact" id="contact" style="padding-top: 5rem;padding-bottom: 2rem;">
-            <div class="contact_header" style="display: block;text-align: center;">
-                <h2 style="font-size: 2.7rem;" class="my-4">Contact Me</h2>
-            </div>
-            <div class="common_wrapper">
-            <div class="contact_content">
-                
-                <div class="contact_fiverr">
-                    <div style="text-align: center;">
-                        <h3 style="font-size: 1.9rem;margin-bottom: 20px;">I Am On Fiverr</h3>
-                    </div>
-                    <div class="marketplace_icon">
-                        <div class="myimg">
-                            <img src="resources/img/fiverr.png" alt="">
-                        </div>
-                        <p class="contact_icon_desc" style="font-size: 1.9rem;"><a href="https://www.fiverr.com/ishat_noor_mahi?up_rollout=true">   You Can Hire Me on Fiverr</a></p>
-                    </div>
-                </div>
-                <div class="hr">
-                    <div class="vl">
-                        <span class="vl-innertext">or</span>
-                    </div>  
-                </div>  
-                <div class="contact_mssg">
-                    <form action="https://formspree.io/ishatnoormahi787@gmail.com" target="blank" method="post">
-                        <div class="twoInput">
-                            <input type="text" placeholder="Your Name *" name="Name">
-                            <input type="email" placeholder="Your Email *" required name="email">
-                        </div>
-                        <div class="oneInput">
-                            <textarea name="Message"  cols="30" rows="10" placeholder="Your Message *" required></textarea>
-                        </div>
-                        <div class="submit_mssg">
-                            <input type="submit" value="SEND MESSAGE" class="common_btn btn btn-submit" title="This Page Uses A THIRD PARTY SERVICE To Make This Form Work." style="text-align: center; font-size: 1.5rem;">
-                        </div>
-                    </form>
-                </div>        
-            </div>
-            </div>
-        </section>
-        <section class="p-5 text-light" style="background-color: rgba(34, 34, 34, 0.986);">
-            <figure class="text-center">
-                <blockquote class="blockquote">
-                  <p>'Satisfaction lies in the effort, not in the attainment.'</p>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  Great social activist <cite title="Source Title">Mahatma Gandhi</cite>
-                </figcaption>
-              </figure>
-        </section>
-        <footer class="track-footer" id="mahi01Footer">
-            <div class="footer_part1">
-                <div class="footer_links">
-                    <a href="https://www.facebook.com/ishat.noor.mahi/"><i class="fab fa-facebook-square footfb"></i></a>
-                    <a href="https://www.youtube.com/channel/UCTlPCzHe1c8oS7Y3makQygg"><i class="fab fa-youtube footyt"></i></a>
-                    <a href="http://m.me/ishat.noor.mahi"><i class="fab fa-facebook-messenger footmssngr"></i></a>
-                    <a href="https://www.instagram.com/ishat_noor_mahi/"><i class="fab fa-instagram-square footig"></i></a>
-                    <a href="https://twitter.com/IshatMahi"><i class="fab fa-twitter-square foottwt"></i></a>
-                    <a href="https://github.com/INmahi"><i class="fab fa-github-square footgithub"></i></a>
-                    <a href="https://gmail.com" title="ishatnoormahi787@gmail.com"><i class="fas fa-envelope footgithub" style="font-size: 3rem;color: #EA4335;margin-left: 0.7rem;"></i></a>
-                </div>
-            </div>
-            <div class="footer_part2">
-                <div class="text_footer">
-                    <a href="javascript:void(0);">Privacy</a>
-                    <a href="#about">About</a>
-                    <a href="javascript:void(0);">Need Help?</a>
-                    <a href="javascript:void(0);">Content</a>
-                    <a href="https://github.com/INmahi/portfolio">Source Code</a>
-                    <a href="https://github.com/INmahi">Github</a>
-                    <a href="#contact">Feedback</a>
-                </div>
-            </div>
-            <!-- ABOUT THIS site  -->
-            <div class="abouPage animate__animated animate__flash animate__slower animate__infinite" id="aboutWeb">
-                <div class="myTxt" style="font-size: 1.7rem;color: #ccc9c9;text-align: center;padding-bottom: 26px;"><a href="about-page.html">ABOUT THIS WEBSITE</a></div>
-            </div>
-            <!-- COPYRIGHT TEXT -->
-            <div class="copy">
-                <div class="copytxt">&copy; Ishat Noor Mahi | 2021 | all rights reserved.</div>
-            </div>
-        </footer>
-        <!-- SCROLL BACK TO TOP BUTTON -->
-        <a href="#totop" class="to-top" title="Scroll Back to Top">
-            <i class="fas fa-chevron-up" aria-hidden="true" style="
-            position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);"></i>
-        </a>
-    </div>
-    <!-- CHECK NETWORK STATUS AND SHOW SNACKBAR -->
-    <div class="online_status">
-        <div id="snackbar">You are <span id="status"></span></div> <!--online/offline detect-->
-    </div>
-    <script src="resources/js/index.min.js"></script>
+
+    
+    <!-- <script src="resources/js/index.min.js"></script>
     <script src="resources/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/typed.min.js"></script>
     <script src="resources/js/owl.carousel.min.js"></script>
@@ -717,6 +918,20 @@
     $("#bar9").barfiller(),
     $("#bar9").barfiller({ barColor: "#29c464",duration: 4000, animateOnResize: !0, symbol: "%" });
 
+    </script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script>
+        function runmodal(){
+            document.getElementById('exp').click()
+        }
+    </script>
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
     </script>
 </body>
 </html>
